@@ -1,0 +1,1884 @@
+From 29c3d6525fee96f0f6dd59860ce54b010ed3dd63 Mon Sep 17 00:00:00 2001
+From: karun <elzathomas19@gmail.com>
+Date: Wed, 10 Jan 2024 23:06:32 +0530
+Subject: [PATCH] create a patch file
+
+---
+ ...5c3ddfd5cd38a049b759396e72e-x86_64.cache-7 |  Bin 0 -> 144 bytes
+ ...c202bc5c08e2d34565a40eac3b2-x86_64.cache-7 |  Bin 0 -> 104 bytes
+ ...98fde41cc6eeb7af42e48b7d293-x86_64.cache-7 |  Bin 0 -> 160 bytes
+ .cache/fontconfig/CACHEDIR.TAG                |    4 +
+ ...48862398ed80a3d6066f4f56f4c-x86_64.cache-7 |  Bin 0 -> 16136 bytes
+ .cache/nix/binary-cache-v6.sqlite             |  Bin 0 -> 40960 bytes
+ .cache/nix/binary-cache-v6.sqlite-journal     |    0
+ ...1ccae27247b02b1d80c412a8ec1d7dffb73ed7d7da |    1 +
+ ...ce181eac361dbebb2ef6577d27355dc28fdc216790 |  Bin 0 -> 10202 bytes
+ ...eac361dbebb2ef6577d27355dc28fdc216790.lock |    0
+ ...c9f2bf7c02c1e5995f065635c9657be671ee2c17da |  Bin 0 -> 4911 bytes
+ ...f7c02c1e5995f065635c9657be671ee2c17da.lock |    0
+ .cache/replit/__replit_disk_meta.json         |    1 +
+ .cache/replit/modules.stamp                   |    0
+ .../python-3.8_v20-20240105-957ab14.res       |    1 +
+ .cache/replit/nix/env.json                    |    1 +
+ .upm/store.json                               |    1 +
+ .upm/store.json404527372                      |    0
+ .upm/store.json499698290                      |    1 +
+ .upm/store.json643261371                      |    1 +
+ .upm/store.json685385725                      |    1 +
+ .upm/store.json841865031                      |    0
+ jpm_module_1/{client3.py => client3_ch.py}    |    0
+ .../{client_test.py => client_test_ch.py}     |    0
+ os                                            | 1293 +++++++++++++++++
+ replit_zip_error_log.txt                      |    1 +
+ 26 files changed, 1306 insertions(+)
+ create mode 100644 .cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-x86_64.cache-7
+ create mode 100644 .cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-x86_64.cache-7
+ create mode 100644 .cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-x86_64.cache-7
+ create mode 100644 .cache/fontconfig/CACHEDIR.TAG
+ create mode 100644 .cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-x86_64.cache-7
+ create mode 100644 .cache/nix/binary-cache-v6.sqlite
+ create mode 100644 .cache/nix/binary-cache-v6.sqlite-journal
+ create mode 100644 .cache/pypoetry/cache/repositories/PyPI/95/a4/6d/bc/1d/0b/3b/67/95a46dbc1d0b3b67a85c391ccae27247b02b1d80c412a8ec1d7dffb73ed7d7da
+ create mode 100644 .cache/pypoetry/cache/repositories/PyPI/_http/6/1/7/4/8/61748e2ceaf79fce181eac361dbebb2ef6577d27355dc28fdc216790
+ create mode 100644 .cache/pypoetry/cache/repositories/PyPI/_http/6/1/7/4/8/61748e2ceaf79fce181eac361dbebb2ef6577d27355dc28fdc216790.lock
+ create mode 100644 .cache/pypoetry/cache/repositories/PyPI/_http/7/0/5/6/7/70567b22ce3c53c9f2bf7c02c1e5995f065635c9657be671ee2c17da
+ create mode 100644 .cache/pypoetry/cache/repositories/PyPI/_http/7/0/5/6/7/70567b22ce3c53c9f2bf7c02c1e5995f065635c9657be671ee2c17da.lock
+ create mode 100644 .cache/replit/__replit_disk_meta.json
+ create mode 100644 .cache/replit/modules.stamp
+ create mode 100644 .cache/replit/modules/python-3.8_v20-20240105-957ab14.res
+ create mode 100644 .cache/replit/nix/env.json
+ create mode 100644 .upm/store.json
+ create mode 100644 .upm/store.json404527372
+ create mode 100644 .upm/store.json499698290
+ create mode 100644 .upm/store.json643261371
+ create mode 100644 .upm/store.json685385725
+ create mode 100644 .upm/store.json841865031
+ rename jpm_module_1/{client3.py => client3_ch.py} (100%)
+ rename jpm_module_1/{client_test.py => client_test_ch.py} (100%)
+ create mode 100644 os
+ create mode 100644 replit_zip_error_log.txt
+
+diff --git a/.cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-x86_64.cache-7 b/.cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-x86_64.cache-7
+new file mode 100644
+index 0000000000000000000000000000000000000000..b30bcc7871f45c77ea21b60e87e475e2a26fc7d2
+GIT binary patch
+literal 144
+zcmZSi!}N!pfq`KH5QBgNm}FpxfYOXmx&camsnAM-GQpI7X>pN$aYkZMs(xC2UP&=b
+Zjswa-m)9>TDorh^EJ%eZgwldg8UVkx6}bQa
+
+literal 0
+HcmV?d00001
+
+diff --git a/.cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-x86_64.cache-7 b/.cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-x86_64.cache-7
+new file mode 100644
+index 0000000000000000000000000000000000000000..d715ca258fab4637e863758c4d7e878c3a9abbb2
+GIT binary patch
+literal 104
+zcmZSi!}N!pfq@|dh(W*sOfoP;Kxr5S<A1NvN`i@jX#LXSBK@5F<is5P;*7+iRQ<I4
+Mypm#s3PC6n0G^l)$N&HU
+
+literal 0
+HcmV?d00001
+
+diff --git a/.cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-x86_64.cache-7 b/.cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-x86_64.cache-7
+new file mode 100644
+index 0000000000000000000000000000000000000000..e2d1ceddb39dc9f9eabc5d251f33e441c1d36d4e
+GIT binary patch
+literal 160
+zcmZSi!}N!pfq`KG5QBgNm}Fo`fYOXmdIFUGQlXUuWr8XF(&8fh;*7+iRQ<I4ypm%5
+hlA_YolFEWqs3Hz1jZ>X|N@`YOSt+uaAhsY>002US96$g7
+
+literal 0
+HcmV?d00001
+
+diff --git a/.cache/fontconfig/CACHEDIR.TAG b/.cache/fontconfig/CACHEDIR.TAG
+new file mode 100644
+index 0000000..c6d9ccb
+--- /dev/null
++++ b/.cache/fontconfig/CACHEDIR.TAG
+@@ -0,0 +1,4 @@
++Signature: 8a477f597d28d172789f06886806bc55
++# This file is a cache directory tag created by fontconfig.
++# For information about cache directory tags, see:
++#       http://www.brynosaurus.com/cachedir/
+diff --git a/.cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-x86_64.cache-7 b/.cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-x86_64.cache-7
+new file mode 100644
+index 0000000000000000000000000000000000000000..7871dcfbc5b57c978c3537807ecccbbacf735ad6
+GIT binary patch
+literal 16136
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/.cache/nix/binary-cache-v6.sqlite b/.cache/nix/binary-cache-v6.sqlite
+new file mode 100644
+index 0000000000000000000000000000000000000000..90f4eeb710144e2aaa527b70ce85044b76d5db55
+GIT binary patch
+literal 40960
+zcmeI*yKmb@90zbxQY2A<%`Aq{qJS?zjarCbN*zDyrA}&~N$tXMvJ@QznmSu&@geb!
+zj%}br({yOpb_vjbBSWVS-MV$^(78jWjOmaTy(2}DRAMJX(ZI%+Fy*7~!Mo4>be1T~
+zx_5Vz2}<_-z_kQ<U%R5|y7nO<nx<9dUXy#Wm1IKg$)+cXGrm`~Iq%0Y^DoUX4z%$f
+z%%8^ZT>g3dYVDoN-x>$TpJ&uW76c#w0SG_<0uVU&0$)@s^~p*7%iF@*b?BzW#da9%
+zrwQZM&c^!v4RU||=H><&=9B3fky|@--D8zVHbIXB=>^QSf@9L9$1_o}L(2(iQbc`c
+zo}l|Qs5P2KxxO)}Ys_oYBi?u9qrR3E3O_n-4Nuo<4wJQq-EyTqHKl+3R@CJkYB`Ks
+zg83fLrYpIQXLAO9w=KIvlb#UI7sLx4C+@Hxie4ygw@Eafe4g#g&U=FFI{xkqnVltf
+zxbG2812*gk@%M<3jR$GpW{4j|Cm`&FJi<7!cDZac(h|(2Tv%=|5gTZY^f9AMrlY~g
+za}4_3h=(B`KU22vsfidAX~;h9(SUk3<>V&w<TTw<4t$!m8$^zyO&uy9dD|AZtv0PS
+zmMi7@CsU_QP?ojT%pO%AeO{{6Cnof7;%WMHeTS?4Qf^w*Pjb_d3^|RFkx_Rn-r2SS
+zF)a9!8S*TbzECC>2?J+XGfJrHahC17y?}Bq11T<&X6-SDek@NsteVfd$4=7d9!yr;
+zru5C#i{fdRm8+LTVw@{yi4V`F66qP+GSUudkmjaYob8`h%eK-AQ7WzV+VMtJh^EcF
+zepn`x_TPo&dzZ@fwTaWhQiWBkscy^L#d7`HHT|<_tr#pYoc6=$9uTiL$zdrMnj>YW
+zRZz{yqK$_{kJg_@#i-5fohX|w<XX$-3<93D6UqcKdykG6K|7$XGS9C-X%MSPB%#OT
+zct*;klbW=iZ-WcDHhjcn7)5R5Gap!<*s?gk8&bK9zq|q2SwCPxuKuI>a?vQ9wP<85
+zTFvZHQT{qr&+oM{x$EYyn*72B0SG_<0uX=z1Rwwb2tWV=5P-mW5t!90+FI$Vp?8Gn
+z@ek(bqYIXE9y{{+oG&jpKmO{Ud3iJ+U6+_vFYxQ;ADaBa1_1~_00Izz00bZa0SG_<
+z0uX?}c@}uPxMrMkIUs)h|EXp^J<kI~-yr}22tWV=5P$##AOHafKmY;|$OxEvamvWP
+z5kNivFPPtJ<}dOF8w4N#0SG_<0uX=z1Rwwb2tWV=|C_*K;fk@9Ia{f^bkbj1Svc%I
+zI9_qxmFrEfw|cN}*moB!eiHN#yY%sQzb)#cwOn_3(Z10=S-o+*u-xq|AFXzl7J0{B
+zJm@%`e$P>F1yFzgUof9&<`eVx%qfwC00bZa0SG_<0uX=z1Rwwb2teRX3rv-aE&Wy3
+z1PbrUQpT&U0jSsi<v;z$1_1~_00Izz00bZa0SG_<0uX?}1r~@t;1AFLFYpXwXb^w^
+z1Rwwb2tWV=5P$##AOL~n^Z%Y{<}+wO00Izz00bZa0SG_<0uX=z1R!w11S)!QtR&z6
+r|9AZPf6q1Z`2`yxh64czKmY;|fB*y_009U<00IzzKqOEsjv4;~p8#}E
+
+literal 0
+HcmV?d00001
+
+diff --git a/.cache/nix/binary-cache-v6.sqlite-journal b/.cache/nix/binary-cache-v6.sqlite-journal
+new file mode 100644
+index 0000000..e69de29
+diff --git a/.cache/pypoetry/cache/repositories/PyPI/95/a4/6d/bc/1d/0b/3b/67/95a46dbc1d0b3b67a85c391ccae27247b02b1d80c412a8ec1d7dffb73ed7d7da b/.cache/pypoetry/cache/repositories/PyPI/95/a4/6d/bc/1d/0b/3b/67/95a46dbc1d0b3b67a85c391ccae27247b02b1d80c412a8ec1d7dffb73ed7d7da
+new file mode 100644
+index 0000000..f23a4ac
+--- /dev/null
++++ b/.cache/pypoetry/cache/repositories/PyPI/95/a4/6d/bc/1d/0b/3b/67/95a46dbc1d0b3b67a85c391ccae27247b02b1d80c412a8ec1d7dffb73ed7d7da
+@@ -0,0 +1 @@
++9999999999{"name": "replit", "version": "3.5.0", "summary": "A library for interacting with features of repl.it", "requires_dist": ["typing_extensions (>=4,<5)", "Flask (>=2.0.0,<3.0.0)", "Werkzeug (>=2,<4)", "aiohttp (>=3.6.2,<4.0.0)", "requests (>=2.25.1,<3.0.0)", "pyseto (>=1.6.11,<2.0.0)", "protobuf (>=4.21.8,<5.0.0)", "urllib3 (==1.26.18)", "aiohttp-retry (>=2.8.3,<3.0.0)"], "requires_python": ">=3.9,<4.0", "files": [{"file": "replit-3.5.0-py3-none-any.whl", "hash": "sha256:778ac8ae648d96bb88da94609cbbf1f57c336eb72786b2d93b0482f13a98a3bf"}, {"file": "replit-3.5.0.tar.gz", "hash": "sha256:36a23a3b6c6ea029e5e1a0cb3c2b6fc375ec4a6f53b969ea5d95aba627a9774f"}], "yanked": false, "_cache_version": "2.0.0"}
+\ No newline at end of file
+diff --git a/.cache/pypoetry/cache/repositories/PyPI/_http/6/1/7/4/8/61748e2ceaf79fce181eac361dbebb2ef6577d27355dc28fdc216790 b/.cache/pypoetry/cache/repositories/PyPI/_http/6/1/7/4/8/61748e2ceaf79fce181eac361dbebb2ef6577d27355dc28fdc216790
+new file mode 100644
+index 0000000000000000000000000000000000000000..ed36eaf0b8ac8ef7bb970af840289e393d05c8bf
+GIT binary patch
+literal 10202
+zcma)icQl+`*S?nMy>~*Qjut&3L?>GGZp;jZF~iL0orsbs(W8avghcdc5xqx`5=4y_
+zqW645o@agE?_KX7Kg;6G-us-h_qDIR?{jWIAUSctkRl`m<%)o#AkXvc5Mb{PP8{|Z
+z1X$N!IDeY_XX3fLUVU$n2W5#S1rU<QIwl;@dd0)E=}d5HOtHQM#k)Z-JXwVg;u&DN
+z4n~m@_DaUN4WDH1$DIF0EiRr;lAoWmPZW|1|Ji@f-l^O2F7{7NfJ^1&w0z^%QCs2R
+zK=?^)?EblKOTfid*X3y7mG{L}?DqUbcnW#TyElO+SCg^m9OA%>Q{l7UU2g&`*=J${
+z>o4Ya0#0@Z!gr<%cNP(shi!#BX{Md;UEz(8{nd~^(c2|15kB*kYssq&mhH}N#hTHE
+z)k9XdWs+2VzlOK?hdw%Q`Ezk8yh(kv{C@uOfJ>e>aC7wdPmGpk`${@_;MHmPo9T;_
+z&Ev^Z8owQ`eYF~dhIM?CX|wv%q>D$pzJXUO_>F4~Hi4I?qkV3c_-lJJYXQfjg*KCo
+z7YBWBV&2T0Odb^;u7CBZLf5^o)^sz_?k~$5A7d&s-2LA9*4@JyB5*8WRab2pwrSnF
+zEzMljQpNtqePHs()r{01aH>#Cjg3&?*>P>_aN~sFhGfI4yrtu^ocZS6VarT|qk9JU
+zrSBV^OwwO^N-RD^PVeKfR3r|z^3ivGefo)=MF2lPx3Jl-WN6(5Jv;)Q85A;WTnMRs
+z*D7v21TA>|x+{C^g+AlDmv2!P0in&w#8^cWg=Jkso^P~H6RB!{HN+nD@o2T7pqTqf
+zah^V!38kB?F)@vNu0wT3CHr<B>7BFpC4leQEZ=c%La*rlkKz@3Fo0Q}M{7F15S^Ys
+zWYz)DXPwKxJE}oY`lX!}!LM+P9?K#bYv@su+nK#h^^CZjejb3zw{qW}O``hQHx8w<
+z8H{#cGpk<=2%B2_K<$-Un$cz;T+AeY6yTM|Qm)q1=QtKT25+k+1AvTkR};Jlw$1Pl
+zmnC>6tsriNADb5FHh+gz_}t<3$ze|D@;z>5dSx=u*ecR-TUfw(+G7{xc?`?FgMcM~
+zs=8`^C0qTjxssIqbJ?<<@3(I=8g><&U>ul>N9fP}hj+!IT-ew~UAR25e+QpPqiXA0
+zzE2vn9=V99OME0us*j&Ftja)zH524QGic?o^fChML`{Rth@MAL`bxbpF7e%mg*2p>
+z9$5Q0mzwO}FQ1#HGJoB`8OU@ZGV`(CBCEtm&u(U0S~2LGjE+YRw+ee4kw%OpIs0t#
+z&Nky=2MVHbYw`{A_+T9F45j6CSyf^mj^YOgA>Jy>$=^psa+H~9lziFuJTo4^$y;9m
+zra!dGDLp3hgkWpOAW35Yqa}kmHm#}a{N1GUJ-(*Ugzgs`#6PBsX?%lD?y(w@t%Gvk
+z?bR6h+t<#~DAvJ(*eKx71$ZWJvknJQQWfid@M`?#CK)iKvi03Bt$dtlv2^UEeqScb
+zG*PX?SSCq_gMpz5yDTvr&a+w1mGqg$o3w@J4ey(!_60eEgmbr&?QTXU;fC0%^a32l
+zIasYR5ocSX=VQYVO7HDwJ472FYHnqYr75;1FKz4lGReMdK|0H8YZv9K7d-F#9%X6n
+zPZtadN_5tvqct<qkB)mV;CnA|*&J0%W~8`c=u?_<JdQg<yz-(jt^XH3&y4=z=ev;h
+zF;fbGx`Yg6u#hHUl<!j}e?(~<dG^bYY3?Z+r(%~PbD6>0+w~$%Hi>b{5^lj6OHF!+
+z)imT?=Qw4`0hDvk*V3w95t3|xG4{T}fb;0XBo8x8CF#wDa5k{B6o7ud%BN$6)GQO^
+zRAtvg!(#hvw=Jok&5hk&RVBfaoBWlIBh;O<w4LL_&s{rxr;aU^buuJ4Tp<n{VOaY1
+z;7M7T!-c16Sg$KHXeTWk(hk(sdS#IvH`>p~Q=@)q9>C8+I!``W)3zrn32vyZ&rc*l
+zE-710F)%4EBzv`r=;3ho-+s+eoN$t5$Z2zl=@V;T4&bZHlC5T>&)-&w`EtiE%_*2V
+zRYy;^(k`rP@(C0<XgncwF^s>pqqDL08igyZr+c!c_W4J^2R7S^cP}lI6UAmStZV~p
+zZM2!NLQmdl2rNT$qN~hr(Mq*Wj<26yHwB`|*;E-^;oEBAXY)KrTvZkicv2lb-h7dQ
+zI`;E&OW83N{tc$yCt(pDKlb}&a;mw7@6i90^jo}KKtC{-p<`ivSA2KsgBNpgQ=`tP
+zCQYU3@<0dZaXXMADALO!%7%#3Cxdhv1@w_ZaVW^Fe~xR&@0n2x7tpk=|K#M99z^#;
+zyXDsOZHqMt0fu&`5(=Nf*GoQRG1iH;{OsKsD_udhxy2)@U&=`Gq)$qeu8cxs?3bIO
+zpM6Ylq4Sbc<TMXeRa4os?)rVCCr3-wB#I*92kq1ahY{emZOi@8NVrs`%tz`FC@M3J
+zIwhEEF~5|g|0s}Da%ovMPVG8ET=?Q{`Fe2V$ZTwJc<sx*xjlsdVMQ1qLadLLj+1lT
+zv&+Tk#EDpu!_|kdhr7sNV8%_-aVTuvzgkstpMV<wxxFE)unY?DN>-^AMwTzPStMG|
+z^)P=(JU-_gS%h)IXn%ztS&UU<+6um7*~`$=Z|0!GY~Zp0i}}wrQbsKLQ7y{istItS
+zMsS34c1QskIbH+*)oYHg?-OO#JNpR_?-YCrKP-Oz<1w)lY4c2WSMQ*0Ww2-Ja>1RB
+z=@9>*%Pg8^(M)@tOXO-IBGTq*0I;5bHbpJ(K$faCii+AnsoqSWRn1_2;l5gS#cBp@
+z(wLU-4IPb+RIm(N99cH>!QWy@mtifi`FtXl16s&D|8}>)o5ECVR{y@j66$gBhNXGK
+z5neU!;+!Dst>ebk6B%hD^Ux-Ltc*1B&93hBg=2kUl_NG>y?nA#)w!G{S6sssKykO=
+zGBNyCO%zcVOOJy*kAHrD1@rxI8i*q797kb<g^s4JyzXLykP)w;xUGitr&Rc$#@*bF
+zqL@}y=QkQq;GZw(B0un@@j=+gi$!EU(jPqS!x~DaDyvm~Z#uYdd7YK${^m4@DwK)A
+z>}h$@?WhLP9zo5gb%8q0M@jd?5n0`eTd$=L(6^ich77+{Y9!ubH$-DqSyD+09X310
+zU=iNsOBEI{1;6>6cW^gV(Dw0R#U_k5&sc-}-N=gH$;0VYp|~FAe75Ral3gg#pCP>u
+z>8QG~S;4&M8S4|AWP(AC2hmSsD;0hDpGXN8Oz?%|@Ps1S+S=edIYm;Em$Ke~8E^Zx
+zvR@3*s~u9@B@e2?G9U(GYo4}L0s6r@L5&3$-A|7fb7Q&aHocU-cqwXx_43`TTmCw0
+zFQ<!}zC-$gsHbT!C~Re-b#~g3#Ub>_Fcn^1M5rjeK=tv<lsFAV5j^Y;Q|03}#j)yj
+zTA5ebU2Ak3w|dK!M~uquU;b%J+<k8;Ml6RzJvz)11?S_&UWD!70lr$*(4A}-rD-H9
+z(1?C{G8yv7l;{<{k21r(`L3yKIobk?OT9ARvJyM$y=<j-cZ()xO@!i`VrnK#sT*ry
+z^yx)C*)hB=)SVwbP8g&j<$`-aCc5?_n_SFltHY<fPs?TII3YgjFr5J>^;$~mz2`G#
+z&XbhHu~nS(*^ET$EE^Uv7{u;8L84q9%i%0>5}jA&%;d}p2J;wi^7i)d+Q|7lciww-
+zdzNja*uDE#(yGu3-aVe-T3|2xT`LnqTB@CpUhXTbCv&k+V=N)Nj?>6Ke{QyqKc1T}
+znfW?>m;(*b^vwa<%w7(Vj`%)Nem=Ma`<g{WJuk?a?J<ok?}Vz|=}4>Sgfm*lMBNe#
+zK3#aqtF_}>`$<d;dMqkd7C=V*=5wNTzmO40;4U_9I@u495!bX~`FRJwW4bHPh+8Yx
+zbMfXD7Pl2^YM!SYgn@}vj_=w2=B7;hLxrd((>d^4ZGZW6&S8cEIUXA~1u*QiTV#dU
+zI*U1D^x26^yo#=Kg26`&3w(0U;+Gd=f&*-`u%~Q2f?96R9&gCh#J|j>qfHZV`!S{l
+zPgGdtdp~Q@>F>Tiw#i>S^!ge+{wK8)_j;X=Cib2QKE9)<gT>OG7tHR1<ACO8BPyW@
+zj=(an;I-bHZjgQROZwImo56bxLUY4fZ?y*N<qgx%UUd$0XjCSVHhc$ywL!EjjL+@T
+z<CJ&(#N#`b5yBj5`!07SKFAzwUH7=VO%`VFQz`RUD$Yb=BNIj#N@#;8e&B_Nt^mvV
+z6_*R5&S9hhl*#g)DhG|y>oS|g)|z1)fgG8pv5WX6D<w&52U8qMwD)?&)W6<d=(|m5
+zD$8;z#2ST6Ul;4P*r=yqFU&ns&W6uxbS-Si15+nve~G5>bTeC#w2AxD{Ag5l!Zu6C
+zGU|I$RRc56N%>ix`6%FHZoBn6>r`7jwp8Ki?FCx}%#*??Coo$xN5i=`6Ugu5*pjUG
+zn!l>kJVPROyzH^Ggv1pq_-y>JeM;vOjTUJbDBfAghYOge;OSt>H=8@fyShqR!V0PN
+z5<XGYbaB;;qXo=Y?-yn)B)->LjyLef;<4&V3*RT334bbkFBc0Ck!3n+q3sk)u}ta^
+z>=%;5P*+gpsv8s|Idpx(xg%S<ljkfyW=EI(r7||P#RSK!zyGeT`lnAMF<?=@+{YG%
+z&wxN>8%+&h)~|2BQ+rc1X<bVu>vNgXgBW(I)ObIzHnCHekWW2R4@ECzVJp3RS@ubh
+zCR7TKGD<*Q)P+)&k!x1I2&YXirt-J1kll{3!0XTVUD9b)j6Db=6&fIH3rFw5Jhx1P
+z%0&)G@OV4zyP25i?es7gj*gEPGCBdRbx9@U+Z=OCyF|jx_kO6-Ik80y(ymC<%2c*{
+zxIbH@0fpJ!5?+84DGT^rX=2U>V_8vyWwLMWBaH$m>eCL=^z(Z6NCPXD1l7xucK=Wq
+z2JsG%n6de85IKDmWVl3{$PfEUD`vIroZXswcZ!{nrmQJ3mQBMfRgWf->o{x478{;@
+zQ7rLOQ4`gAJCWoR&jV|H<ykFScCd4&KB6gI7e_^eIGPUxZ)b4lZ5(#bO&c1i>?%m;
+zWhT=HP0~@p&O-{-(tgLI@9V^KpUUVQKHhy8E9kQ2^SRQatRk>ZKMU`Rl60h38#_C#
+zggb1gjBE9w121oJ9CO_E>%8iDgtCSWG)3>z)aoA7y-`@LDNcX!q}2;Y&@y#t`MPUm
+zH#a<v^1g9dt8a*BEnb7zs?{m?&Js8(FeT$-3jQ8+IrsdBu_uUIH&X7jlxl5c(R74`
+zs9^3v>u~Vy0xfApJ!SOV%yZ|RLuuxgwL3@6bGS32IAkU-oo4de<rT3Hqu2XDL!?_&
+zoL6ZjU#Q=!G&+Y|pj6X_txgjM-856oQQqL4uM4?rxHSZM#<CB+%xRfg04KqC^Wu0$
+zn!aJ1-LKsA=;fpg&9Qh1S~Fv6)wYX&&dRc5C)y(Ejk?Xcv-Nq3$atq}%98Zp4(`rM
+zP>IG+i{j>2`hXY_${xAXJex5}%}GY?fMIlS%z@e}NUAIT*Yk-@GQPq@J1vu>5my_u
+zl~Xtu9^<bM8($UNdSi3Kt3od9&o4Jr&o&IG*TKw`8_+i!?)e((8CCAdbOtHnAUX}j
+z-=PxQb6=Fr!oP=4SKbj}o1mM|J${$51g1wVpWsR#(phlDiBO>9h-nB!$0JLRu@}n+
+zobRw#9K6c#R+LC$E7W|jHjce}ecvHvjr3pLUah27@xaNgu2A^iPVMApIO`Av0+zvc
+zRTwAVh>LIyq$#JsbjwS-w;f*DQP0xH@v}4bJ5*@giP1O2?~(s-HmJ6Q%Xr7u9#==!
+z;e!M(mThzuUk$x**x7zLV6DWzhJ`0c3Z?W~c2I41s;DX52#{aRd2Bpaq(ZiW&q<cW
+z5Y`26UC-VNNi%YOcP2xk8G{u@DM?>m>yVT%hI*&@<b)H&-pfzJ4~XadLBybYFE++G
+zSvr9MovIjMNsq_&OS&tEC{*B?3EFfi`RB<<og96R#Tuycz);Jr`_rtQ#qb6oNxFr;
+zW1?+^YL<&Uor3;Sc73tJRWHY*em23#M)rrN3eiO&n>@cg^9r^<T!1bwDw(v`pl5<*
+zaMCYm{`ST%rpAJZSB|Wc2?b=Kb*(A0+DB(f#{QQXK2o_~9uzCEP0i^k7gh0gxrR{G
+zM?IO2b0#`ulEOoL1Qj+aoo_oqyqp6}RHraC^u-P5GFaAVB?!IGXi)BJ>2T6@=3*i=
+z$#%&?r0}e4fKx(Mb3+WJZu$Jp+uyMX1A9q>eCw>Ic>KD|ltyps6*nNu;Aq9Q54E>!
+zH4a9*xqb@AU{9MbT&YK!a;SU$Bm|oFOSvw_=COCQ-1P@WCk&+hs9VYLCNwqP=hd{7
+z@L|ZqYyG-`M;s>@H2LJkF)jWR!K02EqgCT)%sCrZ{teFp4*f<({g6c!5K#WhUM+(6
+zh7Ba!FWyyYQj?YZBGK)3>7-0q5gmx(2+Mzbw@&Fe>0pBK<)g(!VS*R&?7RA-dRb(m
+zso_STQxSf_vfz?WcF=nWH_6P5dr`Iw-@g+ql5d6k;#J4~)4>r{$|8!74cYo+4@Q=M
+zMM{c96(=WpOGAa<WjDT(m>}?+CoIStvhtmLuvgr;?kQ8l-Z28~w6JC<AurxlR}240
+zu8ltyBJ@puD$E!L#MVw!5%~?*3mpMDcpLCrqqn5DrPrzw@f&yl-n%c)#Eq$!1MEN4
+zN$gs5Dhv>cavI^yNlxOO0~=^w9FA;r#v~SkyNN#Wyonfc+tczGR=a?|#~)V$p?IAK
+z1htCtq1hHE?HU%K)22|iAcOCvN7AI-s0UkeMeWPi4Lo9SJH3q#r{rDg@eXcUOl``T
+z0i%CR&MF>Fnf}g4j@R~{sk3A;?|=Adm0xC^8D6?%T;!@};70h{`RS9^pX$jgYEn@5
+zf8vUo<=)3}VqX8^uMoL8(x@t6#u)HDh;CWAw{kUxyI=`+k@e!+`C;);YGhF5cyWmH
+z^Xbq-(_!MMY%^vswL~y+3@BuGN6=q6Gp3m@Zz;y_t>KW{7uv~Zrrx$!yzGl=iXqE%
+z4k5=1yB$BU$|=goREV1+lCgL9EB5n^e~*F4$z9gv|5Q}3kmnv5qT%u>@Lcy4Nk1z&
+z16n;SX|4n7)v1oBT3SDr8EbCS5PX+%nOLmwJ}1k-`;yTTkzg}4?kH`A^IiTe*NAMV
+zths1JgU@$)kp@vW#c_blbbSy}$U{4v;=;@>ojM*SC3~$V=%c?6rALUl;(cY3K}$#1
+z=ihPDIe~WPG|d(Jk`>t05=*vBBTuL`#R6nJc=a)FM%stmO1`e-?P2N2lI7q&CL__?
+ze3^USS9|iIzL$!*b(TkIed~daa%PCsDv}1EZgy+`{JQ7SW?D?<&>323S1fZc><BJI
+zwNJ8AgT`t7DMb=lq3yZRB~3~bUrZHCeT5iCeD~G|GE@EpQ%};jK5AJo809L&agya$
+zDV5;9RPNz3T(#Tw&RZOt_|=gU{cW>^L{Xd~GdVYMa!m4G_wL{4(p9T_Xhe{xox1Vx
+zEnJ(N#q7YSs<J3WC2ezejx|~J7U$!%)zvJm$8Hl3_9CMP-S|_YVE$k$`n*EGg!@#|
+zy<f!KSSAF_TB5J;`rr??gZplSh8%k-ttNVTE7;f@ln?$M90oS^#`W}_4@}Z&@4fx0
+zxqy37_4v`j7->?^VumWqhhdd?yZSQ65C&yvgW8V9)g7Hl9cRs)W1@aZIT7lHy^56u
+z*2)!oS|syoD-Rs^X@-EJe2^FmKg${ZV6BcyGH2fs)=K%9{HX8Q`2PB(dy#Y^xvsS*
+zjiqB$z5X-(w3@=7J*gy?DX)DQ34@`<^o)#ECQi6^n?g+v>nuF=9Nba+N*1sC9(GF`
+z13DkqRX0POj>dCs=oK4;v^ZL;?Y8ZwdNX}9yM<r7`7Hc%6vDiOGJmDF>l^1g)*2L=
+zt9_5RjE2INpSR7w+Oo2u+VS_&hfe!)qNqkhfbJGv;o0M1(~d35rpYeRi*6&<E2u!a
+zcn^mn1@lLTf>hRUw-D@EiWN8BTk+jqopfjN4>lc66PtbHn*zJ76g`Hk+SEdz;a{g&
+zA`=Q`z+;3(xd72W{h_I}NuI0stQ#oaKD{XSi$`S~P&FXgp{gP%aVv|8Ba@MDeKYqM
+z*>ni`Cj>pZCzB>r$I}S<8^<8QG;fEwtGPG-iDm7(TJWRrZ@CND5iX-piPy^epd6Yk
+zj{|AlIp<h~!w})VD5Be?9krVTywtwVY{v3p{xny~a_IUzEgTiO5yGky&bU=sqER^C
+z5eGaRD>hVtxwCeS*5z9rte2qYCu^&Ir){Ca9jO1H@6q^v&)l)DUTX(vvGj9gI17*T
+zT)r)AJ0vJQU|U!wPHiN}?%)ph?a4NGu$AZ51Dtzn(x+j3GLKx3z8~dy5JbqVZ3Cj|
+zm}p~~3V(38Tl!C1-4>S-V!KVRBPac__sM6;wV_q6ErAt-X3;lsB9iXLm5yfjIN-b!
+z!*M$13y*qDD{;jvehn~^JTBY*mdm=oA|l|qY%pGXkQI=JS7etNcdBw3PiXR6K|Yej
+zIM$p*l)kLBi9n4Vtp3(4`SH58slpDiWF|A%r$1pc_3lLRU6fGQ)QKE@#qoae1iYxC
+zsEC&svMNE0_<F0+#avzFecVUdj;QvB7Tpn@PyCgXe|`dems?NASNs!X(B!oR@d95G
+z%G$BGwHK59WapLXM#dJGQ^hLnvVHGJ$8M`YIr)nD{c@rrXZuDI9vgde&O0gdA<v!5
+z{Z791>Oi`pz@OxsLP%lk%9o_4^r@Xq%)f?wgM-7ZQ_572x5!6-u3XCNOy(aG2S>24
+zzjNj~t4)4>V9On75<R`q0U*~cBb^d*VhlF69C#~1+}!=Rt@B=Y<lh$Fa4K%UBgSg{
+z_Hkdxnt~swoV5`6)^~qmxKZW2emv#yn?6%hC|$|8LeYfpUgU_3j%W)#sVmzw>+Mov
+zP3DR|_a2x8nL;aYIdyB1>JOIT8)$m|>=-B9y_?BMi8uQCDa$Xr(&;z-5yj_Q@OD=P
+z+@XLJ*_D5og%z4N{1Z*{z${+Tph)%Mb7j2TSoa1YwS#7vmcmI7Dw7Pu-5s3Vw5?ZX
+z%EKp0wB@utA>t*5%p(qXl}f9@L<AGY(5}SP@if$yYnHof28{xz{NEnl5~{ly)s!r!
+z@k&#+2RLq__Oe4Lw8FQvKDpUx$~%@Vv*SIs6BV=dFPYjLMERpj>_T+wZj#zjSTUOn
+zYaPJaJGa|BnRYZWUyZrlQ7cH~rK)0S_T#(Rp{WUrQ}kV2B6|*p#ePYCpO!L&YNh)q
+znlvW}<|+N3NLGY##J2H&sQDbN7{Qe*wx0I#DM@uZm0IFXH_xi@8nsRA=fa=ooMzjv
+zvJ7Y5&g=IW+6pLq?}64x6Ou8fXB(xMY~Vr4?;nu_4dpsOsw%U_L2F$*6A}ld@7J<2
+zM<F!&bjs8ZJ5zIq*w!rSKhn?A*yw7nJ!8-IXw{ZzUtr4Zc5Hw(I9PEh?q)86k(`lb
+zR^$f`!=c$+6xLzx^x-VA;Z(0FZRvNPb&lRzResuftMm2S<W^snW8LX&+iT*HWX^l~
+zDs(&_-V)D_FnOc&khZ-&N{u-Y&a~$2Te-@$8kWnbmLtvnjn86Yvv^JT?S<~u1B6=N
+zz$KMAOVE^o-W70sv3*JG!&B!{ae^Vn7yU89=y#u}ae7e9`bkgflKj*Hc*bj&I=SG=
+z*4!<w^?K-CKMwe_Sh?7WLL=U!Ie>AR+LMc_tlEOt?LaN!Mr(IGa=4Qab?QT>Y%%^f
+z9i)MW7pn;#Rgo%Ryd)VwHU@WfFgG_m@#bXN`_W;{QI#PAHQv$d+zm%mzAA`LzPr9C
+zxh-<()}aoeZG5k~fv;~q0#)&0UpgNF^uA7HQXkxvp?t^3ul_;?%THfM5?5Iu`)5n@
+z38rcO>fTB9txvn`OfE8XoHbvXQds`Jq!Chf6jeL%(s1@es@{u+wm6sJZ&TjR0e|ja
+z4bBYTkvcx_4>c(j)1%`BM=CH+Fb<`B<6}#cv>UFf&7!M?Ft4!fP~;O%Y3z*coP}TL
+z^xNzLXmhCd#{`FO#lAJ$z}@^_%;wJGddhWV78ai}@^0aXn{33u9M#cEs19~&+7i$0
+zc%fti7?UZolf#g``1JD1M@p!LghbmA??v*Eg{A&%b``geQ`HHdlyslDNml+dok1?L
+z@n2J6h)#`<O;hA6<kI6>?%hA|_k7oX_%Zn1K}s6SJsqp9z)ELWMzCl^HFJszV?CF&
+z2+L9CH9u8Zsvfz%dB$7}=8k-mdGJ!kbUs_3awQ^3-#d6C*I=9`?ROjrfG)a9Z-=2O
+z^xFowcJ=tt(oQ2Sp!WFk>ns?gS8uX>6l6Vcw?pZp>Vz~Qg76llU1M#k;f74wD<sVG
+zmw-x3y6@gOv3u|em(_V?-kBXbSX=ur_%hj;Jjz?1cf!k*PO0NgVD2p&Km~z_=0i;!
+z&T0Zpyo+yp&!$3h)Z#<cEUsTEM4tLj9OJf4qRai{Vo91RTDzM>7+yAQ_G;(}lmkMf
+zd$ZL@=bbq%vcVq55B8YdykZQ{elOT?$osoAGlbglH`E*YKalqXt8M_YOhgE5ISHR`
+zHI^rRmZbHI{`T^yAAqREw6g}T7A+RU?cWgR2W%NM*xP+2L>)xP$%*q%9+jOc(?R~G
+zdS$~D)m?4yqq5V>p_2y)l^5Ty+BJk-+Vy|_jEZ~EJ`0mLbB=MHn(=EFz4(>AL853O
+zaYWE<&--GeYTl@2K9)J!pIMWBjJzlmA8jM|^wF3a6$#4{l4q;``7C{VgkJpXWStF`
+zA*n<!8jb^e?qN&XDw(bw^c(-fi<-)d+vLtKzI%F0#5<A=RS;T-fA%LSs&{lq*5~jU
+zaIbd68jBNMbR!bm_T6ik4Kff9#8s0Q+ewYRgMWu#){N_?xA^T_YPdg11M6INqywv&
+z+gzlWfre_e1oFX;hi0#P1PXnH`6IgMu4u%c&G6fT@?|#7h)3;;gG??oId^A<<^wMt
+zZKmkX+jNBpo4nd*6ge52lxnZ+eq_mB_j2d*XzSZ1y$|cB&C0V~AOF2?n*uG(y_==Y
+z%>|Pt4b6L-=ck947iR$h{w<AHmezqn?;oYK{K*JB4{mN2y}V4au~|8k2>5YGu@mSQ
+zW^#FcJ$v5f^w7xK=I~IWsd;+SIl%vLauVr3J~=de^R4lI9^Z@oY6bCU<q!7nmrY-{
+z{IReK9U(w41c{o%VlGiaz~K-O8j66II71+=03ZzN0V&5w(GWNq@B{*PKs)A1i%W<!
+zD1tx`6bf*yLLy)QMHmd>3D8AC9iZ?W{>J~RRsXxsl=i>t8G5@y1UWS90op(`$noz8
+z0fyQ`Az*+36b|~U)Iq=@|Hr}z?(+ZG{P(@IA!tVg7?rE0Vp#JZ&S(R@0E!Nfd}&E>
+z5s{|<P^x&jB2W;(Kdyc>1?YL}X#k!8QD}ex1PKMg{)?zcOhiUXT0&a9ObG~bg#3$1
+zr3+>wpaVosQba_M!`0mm1_jmr8@d4m<c@@*y#aa%jM#fh1PrkUy2H=_6cWV21IL8S
+z^MC^dgoEu6UL3$1aM1`?037H6bpT%H=lxTNJp_q_ApcpR4snA$z|#=|2Y`?WOm6;4
+zKK#3-3LJz14(^cW-~)BdQ!xZO)ZKyW=$XMJg<V{|Ox#Qr5z5LYZpNMtcgn6&aYX~3
+z0^tr2RKA@z8iLAG2BINN20*kRhlnJHCJ@dcCL$)zAu25^DkUo}!=a{aSZaC=k_RSx
+zkG-b=pc^otKrp}=<baYA6A=*=yARM%R2Jm;s{%t{Vxm&_r2)z+PYO)|H{cbiYZwZ0
+zV1B&&M*vWVqEQ86lJ^BUL@`E&P!|ZY(Lhv6L|j5rLPSbLNJ2zJMnp`|*g!<kSmnN`
+z=(~U8y=K=G7tqxe1Mm%G!X9w2kgK;VR0suiafLyIJVXVYPzZRQF%aop`!{4kj(<Y`
+z7p-~&G!hCz0}PQsIObo6kk>r;o4P5%e-nIPRN_7+$s!LpFr<aKgCPd)cFG7BAQX;z
+zz~PF7zz{(2dsBca66gW}=(=8~50wXoz`Z}10!$4I0D4FS`ft^hi9X=K&>JFW2Sb3I
+zYcLr6Q+n6I{5!P}jzGbo_V!bp7<xjGE>JWY1G&;o&i`)vmlIG-(yp2G@x};+y59C5
+zwoKz_|0Sd|#2dpF2*w#ShTN#@F(%D&yeJ6Fo=@<<+c-eb{~7=>Jb^)w2p0$%f|TRs
+z69l^0L9bf{4C>&BAu|MyLj0AxW9SP5dSBbv0Wl6EZ-yWYB1qu15DZ0K>oKfxMY|(0
+z9$-WWkh{zEV&EGruSF0z2<h#59j*%m4855M@xtWe8d41Pp)d#ljz9yD5IClzLBKat
+z{zH#&M*|S{01qg{^E#c^Cid<y7zz_P1b+R=0ppV^@Mf+91cAxJ4S8-f-WZHQ2-h3$
+z9HBQR&>QG5h5Ua}yg`Uh5DLcl1I9pe(^0QixLyqgu*W17b^Xx==m3YH{}(+MD5i2<
+z9Wgn((L%w{>)!~p>;GN-TI34!zDDL|h+!uNFaQ(|aQ!>Hmi`R~;0bhw0IsQYBfDu}
+zHzQXFMuEiS2ll_dq0k5<rd<K9bBelg&mCoVZS4uM1E3s%f0N>cndOQ>1QP}t2?RM~
+z8Vbgy0EGsk-BJDBg&vqE2__lD1sEb>YU{18Ryi1gX*>`c&|fNl$@9RJTS&p*I{W`B
+V(D(mQlV#T(OppW9GGQ39{tpDmEYJV|
+
+literal 0
+HcmV?d00001
+
+diff --git a/.cache/pypoetry/cache/repositories/PyPI/_http/6/1/7/4/8/61748e2ceaf79fce181eac361dbebb2ef6577d27355dc28fdc216790.lock b/.cache/pypoetry/cache/repositories/PyPI/_http/6/1/7/4/8/61748e2ceaf79fce181eac361dbebb2ef6577d27355dc28fdc216790.lock
+new file mode 100644
+index 0000000..e69de29
+diff --git a/.cache/pypoetry/cache/repositories/PyPI/_http/7/0/5/6/7/70567b22ce3c53c9f2bf7c02c1e5995f065635c9657be671ee2c17da b/.cache/pypoetry/cache/repositories/PyPI/_http/7/0/5/6/7/70567b22ce3c53c9f2bf7c02c1e5995f065635c9657be671ee2c17da
+new file mode 100644
+index 0000000000000000000000000000000000000000..41d097c196aef1f4a43293462cdefa78facb3ab6
+GIT binary patch
+literal 4911
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/.cache/pypoetry/cache/repositories/PyPI/_http/7/0/5/6/7/70567b22ce3c53c9f2bf7c02c1e5995f065635c9657be671ee2c17da.lock b/.cache/pypoetry/cache/repositories/PyPI/_http/7/0/5/6/7/70567b22ce3c53c9f2bf7c02c1e5995f065635c9657be671ee2c17da.lock
+new file mode 100644
+index 0000000..e69de29
+diff --git a/.cache/replit/__replit_disk_meta.json b/.cache/replit/__replit_disk_meta.json
+new file mode 100644
+index 0000000..fcfd11e
+--- /dev/null
++++ b/.cache/replit/__replit_disk_meta.json
+@@ -0,0 +1 @@
++{"nonce":8357974894463843156,"last_updated":{"seconds":1684533371,"nanos":924025000}}
+diff --git a/.cache/replit/modules.stamp b/.cache/replit/modules.stamp
+new file mode 100644
+index 0000000..e69de29
+diff --git a/.cache/replit/modules/python-3.8_v20-20240105-957ab14.res b/.cache/replit/modules/python-3.8_v20-20240105-957ab14.res
+new file mode 100644
+index 0000000..5fcfa10
+--- /dev/null
++++ b/.cache/replit/modules/python-3.8_v20-20240105-957ab14.res
+@@ -0,0 +1 @@
++{"type":"resolve","resolvedModuleId":"python-3.8:v20-20240105-957ab14","inputHash":"","resolutionPath":["python-3.8:v2-20230907-3d66d15","python-3.8:v3-20230914-1095880","python-3.8:v4-20230920-bd784b9","python-3.8:v5-20230920-d4ad2e4","python-3.8:v6-20230926-7459cc2","python-3.8:v7-20231016-35990c4","python-3.8:v8-20231026-3dd69ae","python-3.8:v9-20231031-d0fd0d7","python-3.8:v10-20231107-a9f4961","python-3.8:v11-20231125-92f4109","python-3.8:v12-20231130-59c1f61","python-3.8:v13-20231201-3b22c78","python-3.8:v14-20231207-2f65342","python-3.8:v15-20231216-fb57c71","python-3.8:v16-20231229-5b1e996","python-3.8:v17-20240102-fd07a42","python-3.8:v18-20240103-6eb2819","python-3.8:v19-20240103-2da4911","python-3.8:v20-20240105-957ab14"],"error":"","Changed":true}
+diff --git a/.cache/replit/nix/env.json b/.cache/replit/nix/env.json
+new file mode 100644
+index 0000000..f92f76a
+--- /dev/null
++++ b/.cache/replit/nix/env.json
+@@ -0,0 +1 @@
++{"entries":{"replit.nix":{"env":{"AR":"ar","AS":"as","CC":"gcc","CONFIG_SHELL":"/nix/store/7q1b1bsmxi91zci6g8714rcljl620y7f-bash-5.2-p15/bin/bash","CXX":"g++","HOST_PATH":"/nix/store/gj072bx3188bf5337wz77zppw8svm4g0-imagemagick-7.1.1-11-dev/bin:/nix/store/6xagifpfc5l6218wiwpv96h29i4ldxa7-curl-8.1.1-dev/bin:/nix/store/4kvvnlqbynh3727zkqm2q72i956yqqlr-brotli-1.0.9/bin:/nix/store/kigi48g8b392j8bqv1ahj23z7v44iray-libkrb5-1.20.1-dev/bin:/nix/store/3xxq8w3qi8jdckzrgnhaxhyx8si85qbw-libkrb5-1.20.1/bin:/nix/store/zil5ca5w6zblrmm8vb301dwfrgk7aaqx-nghttp2-1.51.0-bin/bin:/nix/store/lwsi1w8wnz4y33b2hm7c5gmz82y51hm7-libidn2-2.3.4-bin/bin:/nix/store/ycnrbmp51j7nnffyp83ql7gqis3hl81j-openssl-3.0.9-bin/bin:/nix/store/mzrjy5d84fzd2l3l4f2s3mbr1sfyk1r1-zstd-1.5.5-bin/bin:/nix/store/i5rs6i65r51hw53ia5nn5gl477fx822r-zstd-1.5.5/bin:/nix/store/ynfs3zx3gxnh2nn1xdmx4dxjqj6l274v-curl-8.1.1-bin/bin:/nix/store/vhpdjfcb7bdpzgqnlivb8629g02257f9-bzip2-1.0.8-bin/bin:/nix/store/wsdipb7x0ddsd1ndfi0yb0110nbk34wc-freetype-2.13.0-dev/bin:/nix/store/plmf44pvc4vqz7gf8rpvdp2h81zdaz8w-libpng-apng-1.6.39-dev/bin:/nix/store/62qxhww7170b2m60j0jqi4nqdwhvml9n-libjpeg-turbo-2.1.5.1-bin/bin:/nix/store/n55c6n4ydmfysq98bad3l4av6x4y2qcv-libdeflate-1.18/bin:/nix/store/z9355bsrkh1as20pil82nnvn5fc14gbr-xz-5.4.3-bin/bin:/nix/store/v1n04m9xfch6fkiynvri3nyaylwn87nl-libtiff-4.5.0-bin/bin:/nix/store/amq93fbjj9wqqk10v4chnfa847130yjw-lcms2-2.15-bin/bin:/nix/store/iwxjk7ip46z9pil9lg3anq0p5ahclakx-libwebp-1.3.0/bin:/nix/store/ly540rjqnnqdk513c5gcpagjvf03777a-imagemagick-7.1.1-11/bin:/nix/store/f11ibsj5vmqcy8ihfa8mzvpfs4af7cw5-coreutils-9.1/bin:/nix/store/jvh4fbqfxwwn162k5hb8ndc4h5555wfa-findutils-4.9.0/bin:/nix/store/w4pi0awp7mkfwwqi64bhy83srwkcs9af-diffutils-3.9/bin:/nix/store/w64nwxs3r6cyqgy6ssxib5i2r6k8yfc2-gnused-4.9/bin:/nix/store/rn5b13lbsslbvmmbqnqxdcagzqp4435w-gnugrep-3.7/bin:/nix/store/2hd6hniab7x4k5vlnxl27vcfm99h4qjm-gawk-5.2.1/bin:/nix/store/g04kanq0g4a9vdlw9mqayvcqfy71r19r-gnutar-1.34/bin:/nix/store/5z4s362vmm6l0qf6x5rjr39y6mf35xjn-gzip-1.12/bin:/nix/store/vhpdjfcb7bdpzgqnlivb8629g02257f9-bzip2-1.0.8-bin/bin:/nix/store/v379zfyn6473hcy2nvlam0vkn120gfbp-gnumake-4.4.1/bin:/nix/store/7q1b1bsmxi91zci6g8714rcljl620y7f-bash-5.2-p15/bin:/nix/store/2mwcbkx6br4nfk1gljc62vmll80l20y3-patch-2.7.6/bin:/nix/store/z9355bsrkh1as20pil82nnvn5fc14gbr-xz-5.4.3-bin/bin:/nix/store/087609j187svcvxi5rn0jk3b9rh9pm24-file-5.44/bin","LD":"ld","LOCALE_ARCHIVE":"/usr/lib/locale/locale-archive","NIX_BINTOOLS":"/nix/store/2fr6714pqybnns0sfm9swa4dlaxg8sjz-binutils-wrapper-2.40","NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu":"1","NIX_BUILD_CORES":"1","NIX_BUILD_TOP":"/tmp","NIX_CC":"/nix/store/d9fndiing52fkalp5knfalrvlb3isi6w-gcc-wrapper-12.2.0","NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu":"1","NIX_CFLAGS_COMPILE":" -frandom-seed=n8mwj8raqd -isystem /nix/store/gj072bx3188bf5337wz77zppw8svm4g0-imagemagick-7.1.1-11-dev/include -isystem /nix/store/6xagifpfc5l6218wiwpv96h29i4ldxa7-curl-8.1.1-dev/include -isystem /nix/store/grd9j39ih4qiapbdfhd8xsd06js2xxpb-brotli-1.0.9-dev/include -isystem /nix/store/kigi48g8b392j8bqv1ahj23z7v44iray-libkrb5-1.20.1-dev/include -isystem /nix/store/xz7lk71mqjwgbp2v4gh4crv6awl87v7b-nghttp2-1.51.0-dev/include -isystem /nix/store/60m6dsy6p0qa8faydpa0wb57345xbl0l-libidn2-2.3.4-dev/include -isystem /nix/store/licfcw12566mica40anamc2vhqrkrkyn-openssl-3.0.9-dev/include -isystem /nix/store/pza89w6i0r0w5rfp7fq6qnsjczspd4ic-libssh2-1.11.0-dev/include -isystem /nix/store/j2n0ahm2cl9yv0x5c6110w2kg8z2w9pk-zlib-1.2.13-dev/include -isystem /nix/store/3q1w5dw0j874h6xhx71v0zpyf6q87d29-zstd-1.5.5-dev/include -isystem /nix/store/ikn9lgdphsnsanp7npmmfz8ir4a75rys-bzip2-1.0.8-dev/include -isystem /nix/store/wsdipb7x0ddsd1ndfi0yb0110nbk34wc-freetype-2.13.0-dev/include -isystem /nix/store/plmf44pvc4vqz7gf8rpvdp2h81zdaz8w-libpng-apng-1.6.39-dev/include -isystem /nix/store/fi4yyxchnpcpam1jn6342w3c7d2h8vw4-libjpeg-turbo-2.1.5.1-dev/include -isystem /nix/store/3gqjwny22czc26r6vz1b369f4i4jx760-lcms2-2.15-dev/include -isystem /nix/store/6d2sqd9w9rrxyqh097i64csvzj64gs84-libtiff-4.5.0-dev/include -isystem /nix/store/n55c6n4ydmfysq98bad3l4av6x4y2qcv-libdeflate-1.18/include -isystem /nix/store/53nrbwm3ycdkhrm31izfx524pbbdzk7d-xz-5.4.3-dev/include -isystem /nix/store/kgxrb021mrn0ij41zkaayknmsp4xi57m-libX11-1.8.4-dev/include -isystem /nix/store/gl91xz6rfkdkkqwpxmmizjmciw6sd3jg-xorgproto-2021.5/include -isystem /nix/store/d310ah1k0n3q8x8hppkkpd36l7g5h1wr-libxcb-1.14-dev/include -isystem /nix/store/z016jbpxx28bm4c4a6di01ywpqv4nwzr-libXt-1.2.1-dev/include -isystem /nix/store/nhidpp5hq8q34wzvbllgcd1w4f01bn9g-libSM-1.2.3-dev/include -isystem /nix/store/bkv7c59g11k7l59l5gkw1q8fbyrxfv6a-libICE-1.0.10-dev/include -isystem /nix/store/iwxjk7ip46z9pil9lg3anq0p5ahclakx-libwebp-1.3.0/include -isystem /nix/store/gj072bx3188bf5337wz77zppw8svm4g0-imagemagick-7.1.1-11-dev/include -isystem /nix/store/6xagifpfc5l6218wiwpv96h29i4ldxa7-curl-8.1.1-dev/include -isystem /nix/store/grd9j39ih4qiapbdfhd8xsd06js2xxpb-brotli-1.0.9-dev/include -isystem /nix/store/kigi48g8b392j8bqv1ahj23z7v44iray-libkrb5-1.20.1-dev/include -isystem /nix/store/xz7lk71mqjwgbp2v4gh4crv6awl87v7b-nghttp2-1.51.0-dev/include -isystem /nix/store/60m6dsy6p0qa8faydpa0wb57345xbl0l-libidn2-2.3.4-dev/include -isystem /nix/store/licfcw12566mica40anamc2vhqrkrkyn-openssl-3.0.9-dev/include -isystem /nix/store/pza89w6i0r0w5rfp7fq6qnsjczspd4ic-libssh2-1.11.0-dev/include -isystem /nix/store/j2n0ahm2cl9yv0x5c6110w2kg8z2w9pk-zlib-1.2.13-dev/include -isystem /nix/store/3q1w5dw0j874h6xhx71v0zpyf6q87d29-zstd-1.5.5-dev/include -isystem /nix/store/ikn9lgdphsnsanp7npmmfz8ir4a75rys-bzip2-1.0.8-dev/include -isystem /nix/store/wsdipb7x0ddsd1ndfi0yb0110nbk34wc-freetype-2.13.0-dev/include -isystem /nix/store/plmf44pvc4vqz7gf8rpvdp2h81zdaz8w-libpng-apng-1.6.39-dev/include -isystem /nix/store/fi4yyxchnpcpam1jn6342w3c7d2h8vw4-libjpeg-turbo-2.1.5.1-dev/include -isystem /nix/store/3gqjwny22czc26r6vz1b369f4i4jx760-lcms2-2.15-dev/include -isystem /nix/store/6d2sqd9w9rrxyqh097i64csvzj64gs84-libtiff-4.5.0-dev/include -isystem /nix/store/n55c6n4ydmfysq98bad3l4av6x4y2qcv-libdeflate-1.18/include -isystem /nix/store/53nrbwm3ycdkhrm31izfx524pbbdzk7d-xz-5.4.3-dev/include -isystem /nix/store/kgxrb021mrn0ij41zkaayknmsp4xi57m-libX11-1.8.4-dev/include -isystem /nix/store/gl91xz6rfkdkkqwpxmmizjmciw6sd3jg-xorgproto-2021.5/include -isystem /nix/store/d310ah1k0n3q8x8hppkkpd36l7g5h1wr-libxcb-1.14-dev/include -isystem /nix/store/z016jbpxx28bm4c4a6di01ywpqv4nwzr-libXt-1.2.1-dev/include -isystem /nix/store/nhidpp5hq8q34wzvbllgcd1w4f01bn9g-libSM-1.2.3-dev/include -isystem /nix/store/bkv7c59g11k7l59l5gkw1q8fbyrxfv6a-libICE-1.0.10-dev/include -isystem /nix/store/iwxjk7ip46z9pil9lg3anq0p5ahclakx-libwebp-1.3.0/include","NIX_ENFORCE_NO_NATIVE":"1","NIX_HARDENING_ENABLE":"fortify stackprotector pic strictoverflow format relro bindnow","NIX_LDFLAGS":"-rpath /nix/store/n8mwj8raqdpbp8m4df8p8464z31j8g1l-nix-shell/lib64 -rpath /nix/store/n8mwj8raqdpbp8m4df8p8464z31j8g1l-nix-shell/lib  -L/nix/store/xffl1sa1dq4ya69lkygmfqcg5jj7bzfs-brotli-1.0.9-lib/lib -L/nix/store/3xxq8w3qi8jdckzrgnhaxhyx8si85qbw-libkrb5-1.20.1/lib -L/nix/store/6km8pvikj73s842ragyj1ifarnyk5rd4-nghttp2-1.51.0-lib/lib -L/nix/store/4563gldw8ibz76f1a3x69zq3a1vhdpz9-libidn2-2.3.4/lib -L/nix/store/yyg2hm5yyx7q5psfqqhqqmd49yp7vx3g-openssl-3.0.9/lib -L/nix/store/iglh3lb1cdhk1vn7dh9yk2f337fv80dn-libssh2-1.11.0/lib -L/nix/store/fxq6yn4mfnsnh418l2k218j7sp365sa9-zlib-1.2.13/lib -L/nix/store/i5rs6i65r51hw53ia5nn5gl477fx822r-zstd-1.5.5/lib -L/nix/store/8kcrj71h1xrfi56wh8f2p95j117ygbqi-curl-8.1.1/lib -L/nix/store/gxa1k0wg4fiy33rsh1hhizbdi5xp1s6c-bzip2-1.0.8/lib -L/nix/store/8sp3k583cwcwxxmnaai9lzw4rzfq5kfx-libpng-apng-1.6.39/lib -L/nix/store/mgvbvyql2g0s5bvyhf2k9z7l6masxcjf-freetype-2.13.0/lib -L/nix/store/yiwghpa9daw6g6kqxkqki57pvzx9qdhy-libjpeg-turbo-2.1.5.1/lib -L/nix/store/n55c6n4ydmfysq98bad3l4av6x4y2qcv-libdeflate-1.18/lib -L/nix/store/c8g0di38wqryn4mir8a2l960qgbil05x-xz-5.4.3/lib -L/nix/store/pf98yr82f3bfy2chgzm4bzmys1gay988-libtiff-4.5.0/lib -L/nix/store/97f3n4p8cbvqv75np2ffka767bd2vnvz-lcms2-2.15/lib -L/nix/store/j88q9cqwhw5kmhh1w6px3mcbdgnrsdpf-libxcb-1.14/lib -L/nix/store/gzs13l92w3308ichywy2013bw2n6l413-libX11-1.8.4/lib -L/nix/store/l7qdwhbz1cwn50rq38az3y82x3pbd635-libICE-1.0.10/lib -L/nix/store/922c134wxxh22y2wzv0dig205b9rhfa4-libSM-1.2.3/lib -L/nix/store/mfcipvp0mqy8jhc1ha86hbasrrgiz991-libXt-1.2.1/lib -L/nix/store/iwxjk7ip46z9pil9lg3anq0p5ahclakx-libwebp-1.3.0/lib -L/nix/store/ly540rjqnnqdk513c5gcpagjvf03777a-imagemagick-7.1.1-11/lib -L/nix/store/xffl1sa1dq4ya69lkygmfqcg5jj7bzfs-brotli-1.0.9-lib/lib -L/nix/store/3xxq8w3qi8jdckzrgnhaxhyx8si85qbw-libkrb5-1.20.1/lib -L/nix/store/6km8pvikj73s842ragyj1ifarnyk5rd4-nghttp2-1.51.0-lib/lib -L/nix/store/4563gldw8ibz76f1a3x69zq3a1vhdpz9-libidn2-2.3.4/lib -L/nix/store/yyg2hm5yyx7q5psfqqhqqmd49yp7vx3g-openssl-3.0.9/lib -L/nix/store/iglh3lb1cdhk1vn7dh9yk2f337fv80dn-libssh2-1.11.0/lib -L/nix/store/fxq6yn4mfnsnh418l2k218j7sp365sa9-zlib-1.2.13/lib -L/nix/store/i5rs6i65r51hw53ia5nn5gl477fx822r-zstd-1.5.5/lib -L/nix/store/8kcrj71h1xrfi56wh8f2p95j117ygbqi-curl-8.1.1/lib -L/nix/store/gxa1k0wg4fiy33rsh1hhizbdi5xp1s6c-bzip2-1.0.8/lib -L/nix/store/8sp3k583cwcwxxmnaai9lzw4rzfq5kfx-libpng-apng-1.6.39/lib -L/nix/store/mgvbvyql2g0s5bvyhf2k9z7l6masxcjf-freetype-2.13.0/lib -L/nix/store/yiwghpa9daw6g6kqxkqki57pvzx9qdhy-libjpeg-turbo-2.1.5.1/lib -L/nix/store/n55c6n4ydmfysq98bad3l4av6x4y2qcv-libdeflate-1.18/lib -L/nix/store/c8g0di38wqryn4mir8a2l960qgbil05x-xz-5.4.3/lib -L/nix/store/pf98yr82f3bfy2chgzm4bzmys1gay988-libtiff-4.5.0/lib -L/nix/store/97f3n4p8cbvqv75np2ffka767bd2vnvz-lcms2-2.15/lib -L/nix/store/j88q9cqwhw5kmhh1w6px3mcbdgnrsdpf-libxcb-1.14/lib -L/nix/store/gzs13l92w3308ichywy2013bw2n6l413-libX11-1.8.4/lib -L/nix/store/l7qdwhbz1cwn50rq38az3y82x3pbd635-libICE-1.0.10/lib -L/nix/store/922c134wxxh22y2wzv0dig205b9rhfa4-libSM-1.2.3/lib -L/nix/store/mfcipvp0mqy8jhc1ha86hbasrrgiz991-libXt-1.2.1/lib -L/nix/store/iwxjk7ip46z9pil9lg3anq0p5ahclakx-libwebp-1.3.0/lib -L/nix/store/ly540rjqnnqdk513c5gcpagjvf03777a-imagemagick-7.1.1-11/lib","NIX_STORE":"/nix/store","NM":"nm","OBJCOPY":"objcopy","OBJDUMP":"objdump","PATH":"/nix/store/5d0bgm1j7nwan9z0gkv7lfsm5chz0jwq-bash-interactive-5.2-p15/bin:/nix/store/xxpqzipy93i49sgvm6rl8b9lm1p0bx9b-patchelf-0.15.0/bin:/nix/store/d9fndiing52fkalp5knfalrvlb3isi6w-gcc-wrapper-12.2.0/bin:/nix/store/hqbh8ibqaq8x6riwz48xvyx4dvvldd9f-gcc-12.2.0/bin:/nix/store/d9phlk9dq80grqczgbyi1z2w570bbnz8-glibc-2.37-8-bin/bin:/nix/store/f11ibsj5vmqcy8ihfa8mzvpfs4af7cw5-coreutils-9.1/bin:/nix/store/2fr6714pqybnns0sfm9swa4dlaxg8sjz-binutils-wrapper-2.40/bin:/nix/store/dx8hynidprz3kf4ngcjipnwaxp6h229f-binutils-2.40/bin:/nix/store/gj072bx3188bf5337wz77zppw8svm4g0-imagemagick-7.1.1-11-dev/bin:/nix/store/6xagifpfc5l6218wiwpv96h29i4ldxa7-curl-8.1.1-dev/bin:/nix/store/4kvvnlqbynh3727zkqm2q72i956yqqlr-brotli-1.0.9/bin:/nix/store/kigi48g8b392j8bqv1ahj23z7v44iray-libkrb5-1.20.1-dev/bin:/nix/store/3xxq8w3qi8jdckzrgnhaxhyx8si85qbw-libkrb5-1.20.1/bin:/nix/store/zil5ca5w6zblrmm8vb301dwfrgk7aaqx-nghttp2-1.51.0-bin/bin:/nix/store/lwsi1w8wnz4y33b2hm7c5gmz82y51hm7-libidn2-2.3.4-bin/bin:/nix/store/ycnrbmp51j7nnffyp83ql7gqis3hl81j-openssl-3.0.9-bin/bin:/nix/store/mzrjy5d84fzd2l3l4f2s3mbr1sfyk1r1-zstd-1.5.5-bin/bin:/nix/store/i5rs6i65r51hw53ia5nn5gl477fx822r-zstd-1.5.5/bin:/nix/store/ynfs3zx3gxnh2nn1xdmx4dxjqj6l274v-curl-8.1.1-bin/bin:/nix/store/vhpdjfcb7bdpzgqnlivb8629g02257f9-bzip2-1.0.8-bin/bin:/nix/store/wsdipb7x0ddsd1ndfi0yb0110nbk34wc-freetype-2.13.0-dev/bin:/nix/store/plmf44pvc4vqz7gf8rpvdp2h81zdaz8w-libpng-apng-1.6.39-dev/bin:/nix/store/62qxhww7170b2m60j0jqi4nqdwhvml9n-libjpeg-turbo-2.1.5.1-bin/bin:/nix/store/n55c6n4ydmfysq98bad3l4av6x4y2qcv-libdeflate-1.18/bin:/nix/store/z9355bsrkh1as20pil82nnvn5fc14gbr-xz-5.4.3-bin/bin:/nix/store/v1n04m9xfch6fkiynvri3nyaylwn87nl-libtiff-4.5.0-bin/bin:/nix/store/amq93fbjj9wqqk10v4chnfa847130yjw-lcms2-2.15-bin/bin:/nix/store/iwxjk7ip46z9pil9lg3anq0p5ahclakx-libwebp-1.3.0/bin:/nix/store/ly540rjqnnqdk513c5gcpagjvf03777a-imagemagick-7.1.1-11/bin:/nix/store/f11ibsj5vmqcy8ihfa8mzvpfs4af7cw5-coreutils-9.1/bin:/nix/store/jvh4fbqfxwwn162k5hb8ndc4h5555wfa-findutils-4.9.0/bin:/nix/store/w4pi0awp7mkfwwqi64bhy83srwkcs9af-diffutils-3.9/bin:/nix/store/w64nwxs3r6cyqgy6ssxib5i2r6k8yfc2-gnused-4.9/bin:/nix/store/rn5b13lbsslbvmmbqnqxdcagzqp4435w-gnugrep-3.7/bin:/nix/store/2hd6hniab7x4k5vlnxl27vcfm99h4qjm-gawk-5.2.1/bin:/nix/store/g04kanq0g4a9vdlw9mqayvcqfy71r19r-gnutar-1.34/bin:/nix/store/5z4s362vmm6l0qf6x5rjr39y6mf35xjn-gzip-1.12/bin:/nix/store/vhpdjfcb7bdpzgqnlivb8629g02257f9-bzip2-1.0.8-bin/bin:/nix/store/v379zfyn6473hcy2nvlam0vkn120gfbp-gnumake-4.4.1/bin:/nix/store/7q1b1bsmxi91zci6g8714rcljl620y7f-bash-5.2-p15/bin:/nix/store/2mwcbkx6br4nfk1gljc62vmll80l20y3-patch-2.7.6/bin:/nix/store/z9355bsrkh1as20pil82nnvn5fc14gbr-xz-5.4.3-bin/bin:/nix/store/087609j187svcvxi5rn0jk3b9rh9pm24-file-5.44/bin","RANLIB":"ranlib","READELF":"readelf","REPLIT_LD_LIBRARY_PATH":"/nix/store/ly540rjqnnqdk513c5gcpagjvf03777a-imagemagick-7.1.1-11/lib","SIZE":"size","SOURCE_DATE_EPOCH":"315532800","STRINGS":"strings","STRIP":"strip","XDG_DATA_DIRS":"/nix/store/xxpqzipy93i49sgvm6rl8b9lm1p0bx9b-patchelf-0.15.0/share","_":"/nix/store/f11ibsj5vmqcy8ihfa8mzvpfs4af7cw5-coreutils-9.1/bin/env","__ETC_PROFILE_SOURCED":"1","__structuredAttrs":"","buildInputs":"/nix/store/gj072bx3188bf5337wz77zppw8svm4g0-imagemagick-7.1.1-11-dev","buildPhase":"{ echo \"------------------------------------------------------------\";\n  echo \" WARNING: the existence of this path is not guaranteed.\";\n  echo \" It is an internal implementation detail for pkgs.mkShell.\";\n  echo \"------------------------------------------------------------\";\n  echo;\n  # Record all build inputs as runtime dependencies\n  export;\n} \u003e\u003e \"$out\"\n","builder":"/nix/store/7q1b1bsmxi91zci6g8714rcljl620y7f-bash-5.2-p15/bin/bash","cmakeFlags":"","configureFlags":"","depsBuildBuild":"","depsBuildBuildPropagated":"","depsBuildTarget":"","depsBuildTargetPropagated":"","depsHostHost":"","depsHostHostPropagated":"","depsTargetTarget":"","depsTargetTargetPropagated":"","doCheck":"","doInstallCheck":"","mesonFlags":"","name":"nix-shell","nativeBuildInputs":"","out":"/nix/store/n8mwj8raqdpbp8m4df8p8464z31j8g1l-nix-shell","outputs":"out","patches":"","phases":"buildPhase","preferLocalBuild":"1","propagatedBuildInputs":"","propagatedNativeBuildInputs":"","shell":"/nix/store/7q1b1bsmxi91zci6g8714rcljl620y7f-bash-5.2-p15/bin/bash","shellHook":"","stdenv":"/nix/store/5wdlffjhcr4i43sfajxcvx3lvnkryh5y-stdenv-linux","strictDeps":"","system":"x86_64-linux"},"dependencies":[{"path":"replit.nix","mod_time":"2024-01-06T17:54:08.97969115Z"}],"closure":["/nix/store/567zfi9026lp2q6v97vwn640rv6i3n4c-libunistring-1.1","/nix/store/4563gldw8ibz76f1a3x69zq3a1vhdpz9-libidn2-2.3.4","/nix/store/jd99cyc0251p0i5y69w8mqjcai8mcq7h-xgcc-12.2.0-libgcc","/nix/store/dg8mpqqykmw9c7l0bgzzb5znkymlbfjw-glibc-2.37-8","/nix/store/3b2b6k6qnvw1lqzpidc552ifaavvw2wh-libXau-1.0.9","/nix/store/kz306i112jcl32m87sb7sbc7034sjjdv-libXdmcp-1.1.3","/nix/store/j88q9cqwhw5kmhh1w6px3mcbdgnrsdpf-libxcb-1.14","/nix/store/gzs13l92w3308ichywy2013bw2n6l413-libX11-1.8.4","/nix/store/pfn3d53934dswdsf269kmi2acbcjkq2p-libXext-1.3.4","/nix/store/q89g63r98d8hxf9mynvngc8zcwfhxash-libglvnd-1.6.0","/nix/store/06va7ydcmgibg7a54dbc16m8pgxm6s55-libglvnd-1.6.0-dev","/nix/store/fxq6yn4mfnsnh418l2k218j7sp365sa9-zlib-1.2.13","/nix/store/087609j187svcvxi5rn0jk3b9rh9pm24-file-5.44","/nix/store/0pp90lkmq9gvhi4h2gyfi58i232078df-xcb-util-0.4.1","/nix/store/gl91xz6rfkdkkqwpxmmizjmciw6sd3jg-xorgproto-2021.5","/nix/store/41qi2mi73y3vwnm9avh7dddw401syscc-libXau-1.0.9-dev","/nix/store/0sxcj3p8wr5a9rqx8ip2bdj0j8dz7ybx-libXext-1.3.4-dev","/nix/store/10hjw3li7h1wjmq2m8mzgs5l136cprb1-gdbm-1.23","/nix/store/h9a9hrrvdwg7dbh69w9yp2z3prvdnw48-gcc-12.2.0-libgcc","/nix/store/sm14bmd3l61p5m0q7wa5g7rz2bl6azqf-gcc-12.2.0-lib","/nix/store/6awl61mfgvldsmdm7z86n8j1kjfgnk5r-openexr-2.5.8","/nix/store/1xr28qyp9nf6vvnw5brv880g6si8dxm2-openexr-2.5.8-bin","/nix/store/grq68nff43ag6d43rddrkiwcbvjnf3f5-graphite2-1.3.14","/nix/store/8sp3k583cwcwxxmnaai9lzw4rzfq5kfx-libpng-apng-1.6.39","/nix/store/gxa1k0wg4fiy33rsh1hhizbdi5xp1s6c-bzip2-1.0.8","/nix/store/xffl1sa1dq4ya69lkygmfqcg5jj7bzfs-brotli-1.0.9-lib","/nix/store/mgvbvyql2g0s5bvyhf2k9z7l6masxcjf-freetype-2.13.0","/nix/store/wkp4n3pwapq9pxv9f0341n5l9im4im1v-pcre-8.45","/nix/store/k2b3xdkdflrv38wz8a311dhvac0v1rrb-libselinux-3.3","/nix/store/pq9vbv9q0q1vsv6yamqyrfv4qkzz0487-libffi-3.4.4","/nix/store/s52f3ixpj1dchrpmqvpm5p78hml4zhg3-pcre2-10.42","/nix/store/xpsf303y8d91vil4lplzkwjrs25fdrpq-util-linux-minimal-2.38.1-lib","/nix/store/rympfmzvl838agp9xlkyi0w48wjb9p3a-glib-2.76.2","/nix/store/2cfc17gx9fi8bbkanc3pydx3mza4k60a-harfbuzz-7.2.0","/nix/store/7q1b1bsmxi91zci6g8714rcljl620y7f-bash-5.2-p15","/nix/store/d9phlk9dq80grqczgbyi1z2w570bbnz8-glibc-2.37-8-bin","/nix/store/qs605c91wv5fr9rny4mmhpdna6i59kdk-linux-headers-6.2","/nix/store/dpk5m64n0axk01fq8h2m0yl9hhpq2nqk-glibc-2.37-8-dev","/nix/store/3w02zcld9m60jkjvwmrs2c5g330qrvjq-binutils-2.40-lib","/nix/store/dx8hynidprz3kf4ngcjipnwaxp6h229f-binutils-2.40","/nix/store/9pg1y0wx907vgi0kpw10gwdblv6v84a8-gmp-with-cxx-6.2.1","/nix/store/m9c4c5sf4h49na44ih20qkxa71wavbg6-attr-2.5.1","/nix/store/knkqz46i3k0y1f53hlnkg09cqb4nr09b-acl-2.3.1","/nix/store/f11ibsj5vmqcy8ihfa8mzvpfs4af7cw5-coreutils-9.1","/nix/store/kv5bkjsxp75dvz31bvb4gmamycxyz959-expand-response-params","/nix/store/2fr6714pqybnns0sfm9swa4dlaxg8sjz-binutils-wrapper-2.40","/nix/store/2hd6hniab7x4k5vlnxl27vcfm99h4qjm-gawk-5.2.1","/nix/store/d6d7rhq8hl6bpkgwp356pq5j2sd6wfgm-ed-1.19","/nix/store/2mwcbkx6br4nfk1gljc62vmll80l20y3-patch-2.7.6","/nix/store/yiwghpa9daw6g6kqxkqki57pvzx9qdhy-libjpeg-turbo-2.1.5.1","/nix/store/3apyb1rkib3pv6id306404j666hx36qb-djvulibre-3.5.28","/nix/store/3ckwd5wkqphgxvc9j0bsmshhbf6hbz9i-curl-8.1.1-man","/nix/store/c8g0di38wqryn4mir8a2l960qgbil05x-xz-5.4.3","/nix/store/z9355bsrkh1as20pil82nnvn5fc14gbr-xz-5.4.3-bin","/nix/store/53nrbwm3ycdkhrm31izfx524pbbdzk7d-xz-5.4.3-dev","/nix/store/62qxhww7170b2m60j0jqi4nqdwhvml9n-libjpeg-turbo-2.1.5.1-bin","/nix/store/fi4yyxchnpcpam1jn6342w3c7d2h8vw4-libjpeg-turbo-2.1.5.1-dev","/nix/store/j2n0ahm2cl9yv0x5c6110w2kg8z2w9pk-zlib-1.2.13-dev","/nix/store/n55c6n4ydmfysq98bad3l4av6x4y2qcv-libdeflate-1.18","/nix/store/pf98yr82f3bfy2chgzm4bzmys1gay988-libtiff-4.5.0","/nix/store/v1n04m9xfch6fkiynvri3nyaylwn87nl-libtiff-4.5.0-bin","/nix/store/6d2sqd9w9rrxyqh097i64csvzj64gs84-libtiff-4.5.0-dev","/nix/store/97f3n4p8cbvqv75np2ffka767bd2vnvz-lcms2-2.15","/nix/store/amq93fbjj9wqqk10v4chnfa847130yjw-lcms2-2.15-bin","/nix/store/3gqjwny22czc26r6vz1b369f4i4jx760-lcms2-2.15-dev","/nix/store/n5c1h1zfk0636hcjcddi8sb8iyd9rzx5-expat-2.5.0","/nix/store/q68r86gn7wf30874kd3gx4b2rfnziszf-dejavu-fonts-minimal-2.37","/nix/store/wpf6xb18hyg8h138gnk8dxl48kc891pc-fontconfig-2.14.0","/nix/store/4ly9bc300jj7qfqw6blrxmvp4sllhv90-fontconfig-2.14.0-lib","/nix/store/3jxvhgnp1wjix6g40pyrrm1ihmmyrvz4-fontconfig-2.14.0-bin","/nix/store/i5rs6i65r51hw53ia5nn5gl477fx822r-zstd-1.5.5","/nix/store/rn5b13lbsslbvmmbqnqxdcagzqp4435w-gnugrep-3.7","/nix/store/mzrjy5d84fzd2l3l4f2s3mbr1sfyk1r1-zstd-1.5.5-bin","/nix/store/3q1w5dw0j874h6xhx71v0zpyf6q87d29-zstd-1.5.5-dev","/nix/store/3vghgm5l0qbm6sy9wf8qpy7szy1m52bc-libhwy-1.0.4","/nix/store/af5wghs97a9m7495cn08qa936pp1vvnc-keyutils-1.6.3-lib","/nix/store/3xxq8w3qi8jdckzrgnhaxhyx8si85qbw-libkrb5-1.20.1","/nix/store/zpf1f9k3khs8slq3w0w2gx2jdjqmh39d-giflib-5.2.1","/nix/store/iwxjk7ip46z9pil9lg3anq0p5ahclakx-libwebp-1.3.0","/nix/store/wxfrbjpyix0grf6ylv2wckf8d8idmqgw-ilmbase-2.5.8","/nix/store/k71fip69xr93sfs592s9505z78x1idxs-libunwind-1.6.2","/nix/store/yq4c02vfq3rjkxr0kk438qgsli7n6ipq-gperftools-2.10","/nix/store/40rjm9f2dcphg8d2g9by6l5dah1mmhwm-libjxl-0.8.1","/nix/store/aw3m2fchgc54kzxzx1ylngs5vhqpjlss-fribidi-1.0.12","/nix/store/hy9gybf2m2cwhz7jzg567jx01w31la69-pixman-0.42.2","/nix/store/iklwi441fzjh3i6l4qglin3lvm34h91m-libXrender-0.9.10","/nix/store/d8n7j49mbgkdrn4850638wn5pd2h361z-cairo-1.16.0","/nix/store/s3ivk5350c2ywy6x02hawm1c83lmp7i9-libdatrie-2019-12-20-lib","/nix/store/rgblwq58lwbqsfwcg38gz9zbsvhc69cp-libthai-0.1.29","/nix/store/y7ysjlx5snymv19yfxm0dry31j2cngki-libXft-2.3.6","/nix/store/46bvmvqbvn8afdkgfwwaw2bmykjq3fcc-pango-1.50.14","/nix/store/4faw3w020cjxvd1dnxhg73mi10wcxvpw-tzdata-2023c","/nix/store/7ii5q74s0dbpgaw35ka1k5fzl6i4dizm-gdk-pixbuf-2.42.10","/nix/store/4n4xj7xjgr2zvydjm2wiai75vy86dkxn-glibc-iconv-2.37","/nix/store/acqgf744r6y6pmhcl6k850x3b3fz5hf9-gettext-0.21","/nix/store/4yx5cv12dyswnaiyfbafymmhl3h26dgi-ncurses-6.4","/nix/store/6j93cr35jnhf4md1rr9w4b5mhilc9203-libxcrypt-4.4.33","/nix/store/dwq697bxfhp7hpcq2mkd9m9469cqm7nm-mailcap-2.1.53","/nix/store/f2n21q5hzr6pkpva1372cc1p0yr7acgn-sqlite-3.41.2","/nix/store/kzaliadzvxczqdlbahf3mm20cyvj3pbr-readline-8.2p1","/nix/store/pfv27gsa3cr8zs3mx9nxh3xr6bmvcnn8-openssl-3.0.9","/nix/store/lwzzgbnj41d657lpxczk6l5f7d5zcnj1-python3-3.10.11","/nix/store/r1pkl74bydd64hpnr2vkajqyji3np2nr-glib-2.76.2-bin","/nix/store/r5zga8mzxfj7ml58c4csnlzs571y5wmm-libelf-0.8.13","/nix/store/z8cqn0v5f7iijrzyq9fbjlk2inmjw652-libffi-3.4.4-dev","/nix/store/ba7474hcsqalk2vkr11yrdhbg8d76q8s-glib-2.76.2-dev","/nix/store/plmf44pvc4vqz7gf8rpvdp2h81zdaz8w-libpng-apng-1.6.39-dev","/nix/store/4gl06cx8sfrkqqjhl7i9hb74i0j6v3sl-gdk-pixbuf-2.42.10-dev","/nix/store/4kvvnlqbynh3727zkqm2q72i956yqqlr-brotli-1.0.9","/nix/store/52pvh3kw9xbi8nnric291rqgmsay18cs-pango-1.50.14-bin","/nix/store/59jkpbmas5mg6qq9n25ir3c9fpqnkycy-libraw-0.21.1-lib","/nix/store/d310ah1k0n3q8x8hppkkpd36l7g5h1wr-libxcb-1.14-dev","/nix/store/kgxrb021mrn0ij41zkaayknmsp4xi57m-libX11-1.8.4-dev","/nix/store/9dx3py7qfjq0mjcv980lfshdj013ppfj-libXrender-0.9.10-dev","/nix/store/grd9j39ih4qiapbdfhd8xsd06js2xxpb-brotli-1.0.9-dev","/nix/store/vhpdjfcb7bdpzgqnlivb8629g02257f9-bzip2-1.0.8-bin","/nix/store/ikn9lgdphsnsanp7npmmfz8ir4a75rys-bzip2-1.0.8-dev","/nix/store/wsdipb7x0ddsd1ndfi0yb0110nbk34wc-freetype-2.13.0-dev","/nix/store/bl9ar51lf7sdigq0n34k3s7fagabivg7-fontconfig-2.14.0-dev","/nix/store/5dskjig82zyapdby7x5mv0z80vyppczx-libXft-2.3.6-dev","/nix/store/9x90z5p4b8rvq6nvxdhx0drcjxrl8s6n-dav1d-1.2.0","/nix/store/bgx5hmfric3pwmjq1a76sxmxy6n5jpz6-libde265-1.0.11","/nix/store/mlivlgcb1y8s1yyxc27nras9mvp7fzq4-rav1e-0.6.4","/nix/store/d67s9g1f8s3b72drq5anfxqlzrv11ssp-numactl-2.0.16","/nix/store/qwsp5xr0kalhhi1lsrz7xwf1pr44grbm-x265-3.5","/nix/store/vnjn99acqy9nwyf6ljga0x4508xqwb06-libvmaf-2.3.1","/nix/store/smxizfmfx1xjpdl4abr8fqnsa7v0ndpm-libaom-3.6.0","/nix/store/5pnqfysyybrsasyhzws59d8c82sniw65-libheif-1.15.2","/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh","/nix/store/5z4s362vmm6l0qf6x5rjr39y6mf35xjn-gzip-1.12","/nix/store/a9ndjg0b1ivi0av9m93vfkrndp7fqbw1-strip.sh","/nix/store/bxsly8a56yb8kyrq03s82a3vyc8fqrb3-multiple-outputs.sh","/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh","/nix/store/d2skw3y1jcg27ml4rgz38lrn18q0wrs1-gmp-6.2.1","/nix/store/88dbrfrmj0lqxwyk4q6h7w5glkgkfvmn-mpfr-4.2.0","/nix/store/dg38bhsf0pl4m7qp65cf3aw7xyyw5g8d-libmpc-1.3.1","/nix/store/f2z9hlzn0ajm4i296r77v3ihcfi77ld8-isl-0.20","/nix/store/hqbh8ibqaq8x6riwz48xvyx4dvvldd9f-gcc-12.2.0","/nix/store/d9fndiing52fkalp5knfalrvlb3isi6w-gcc-wrapper-12.2.0","/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh","/nix/store/g04kanq0g4a9vdlw9mqayvcqfy71r19r-gnutar-1.34","/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh","/nix/store/jvh4fbqfxwwn162k5hb8ndc4h5555wfa-findutils-4.9.0","/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh","/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh","/nix/store/nf1lkdrhapsx5lr6diyxyjr7pb7r20gr-patch-shebangs.sh","/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh","/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh","/nix/store/v379zfyn6473hcy2nvlam0vkn120gfbp-gnumake-4.4.1","/nix/store/w4pi0awp7mkfwwqi64bhy83srwkcs9af-diffutils-3.9","/nix/store/w64nwxs3r6cyqgy6ssxib5i2r6k8yfc2-gnused-4.9","/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh","/nix/store/xxpqzipy93i49sgvm6rl8b9lm1p0bx9b-patchelf-0.15.0","/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh","/nix/store/5wdlffjhcr4i43sfajxcvx3lvnkryh5y-stdenv-linux","/nix/store/6032wrbqmw6yc07q0qfmbsyi8g8ld5rx-liblqr-1-0.4.2","/nix/store/lwsi1w8wnz4y33b2hm7c5gmz82y51hm7-libidn2-2.3.4-bin","/nix/store/60m6dsy6p0qa8faydpa0wb57345xbl0l-libidn2-2.3.4-dev","/nix/store/6km8pvikj73s842ragyj1ifarnyk5rd4-nghttp2-1.51.0-lib","/nix/store/6sa1gd63g632bpik7nvcb6bmi1r6jsw6-libGL-1.6.0","/nix/store/yyg2hm5yyx7q5psfqqhqqmd49yp7vx3g-openssl-3.0.9","/nix/store/iglh3lb1cdhk1vn7dh9yk2f337fv80dn-libssh2-1.11.0","/nix/store/8kcrj71h1xrfi56wh8f2p95j117ygbqi-curl-8.1.1","/nix/store/kigi48g8b392j8bqv1ahj23z7v44iray-libkrb5-1.20.1-dev","/nix/store/ycnrbmp51j7nnffyp83ql7gqis3hl81j-openssl-3.0.9-bin","/nix/store/licfcw12566mica40anamc2vhqrkrkyn-openssl-3.0.9-dev","/nix/store/pza89w6i0r0w5rfp7fq6qnsjczspd4ic-libssh2-1.11.0-dev","/nix/store/n99mg7lpf6wrwk0rc0fb0pa60mclp9cn-nghttp2-1.51.0","/nix/store/l1id6ljn4v2ynh3kg35pvscv3n5v8w54-libev-4.33","/nix/store/r146dxphvbwsswznxid2p4hmcd2jz5a8-c-ares-1.19.1","/nix/store/zil5ca5w6zblrmm8vb301dwfrgk7aaqx-nghttp2-1.51.0-bin","/nix/store/xz7lk71mqjwgbp2v4gh4crv6awl87v7b-nghttp2-1.51.0-dev","/nix/store/ynfs3zx3gxnh2nn1xdmx4dxjqj6l274v-curl-8.1.1-bin","/nix/store/6xagifpfc5l6218wiwpv96h29i4ldxa7-curl-8.1.1-dev","/nix/store/6xg259477c90a229xwmb53pdfkn6ig3g-default-builder.sh","/nix/store/7h3wfynghrnigv675ggcb5gpp14hd83i-xcb-util-0.4.1-dev","/nix/store/z33gznbb7g55ajwr8smdy7sk8czdbisd-file-5.44","/nix/store/881cmwymz18k4rwck9v7fhhai1d6l19z-file-5.44-dev","/nix/store/9ab432c4gjhqcq97ws00gq851ndpjxh4-libGL-1.6.0-dev","/nix/store/gp2hs0qfsa7k4sza0h8pghvf5m5sppkr-find-xml-catalogs-hook","/nix/store/hyn81nswiyrkgd2365zjgyml05zf58vf-libxml2-2.10.4","/nix/store/vxjfy2bmhfpvrav3q89qy1fsyd9c11ha-libxml2-2.10.4-bin","/nix/store/ah7zbi901wg16wpdag8slc4f3j9yfrgp-libxml2-2.10.4-dev","/nix/store/b01qix9cqncpaqw8mcajbkwjlwp5cryl-libjxl-0.8.1","/nix/store/l7qdwhbz1cwn50rq38az3y82x3pbd635-libICE-1.0.10","/nix/store/bkv7c59g11k7l59l5gkw1q8fbyrxfv6a-libICE-1.0.10-dev","/nix/store/bw9kz41qixikgqc0r7gq4y5d52dv11n6-harfbuzz-7.2.0-dev","/nix/store/gglhd9ijir59b11wvy5xxwqxk97znxgp-expat-2.5.0-dev","/nix/store/p763v59rqagnr4395lk4yiq4h55pk69i-cairo-1.16.0-dev","/nix/store/c138dy8v60c7l72kfn07v7ayjr5fmi5k-pango-1.50.14-dev","/nix/store/kl3ph38s7dqvif2n0y8isa2illvvxyca-ilmbase-2.5.8-dev","/nix/store/kpxafygcd1vnj2x10xg0nb1aqlg3b01y-librsvg-2.55.1","/nix/store/ks0cji7b12fsnqa5yiagnly4vkcndv24-liblqr-1-0.4.2-dev","/nix/store/l57f4ayck6nskb6xi6r602gkfmddd88k-openjpeg-2.5.0","/nix/store/922c134wxxh22y2wzv0dig205b9rhfa4-libSM-1.2.3","/nix/store/g001hx9p77c3k7d42m1z9k7zr4h4pkk0-potrace-1.16","/nix/store/mfcipvp0mqy8jhc1ha86hbasrrgiz991-libXt-1.2.1","/nix/store/ly540rjqnnqdk513c5gcpagjvf03777a-imagemagick-7.1.1-11","/nix/store/msy92mg4al76sv0dy0d1ixhwrd2vgjdw-libjxl-0.8.1-dev","/nix/store/n9xw875ck8s0gm1l72g6p7fai85qxkjw-openjpeg-2.5.0-dev","/nix/store/nhidpp5hq8q34wzvbllgcd1w4f01bn9g-libSM-1.2.3-dev","/nix/store/ny6aayap47bydgyzhgvpmjf0kr6p0ha1-libraw-0.21.1","/nix/store/nj84afql2iqhxk79iafsh9ms2xlmy8h2-libraw-0.21.1-dev","/nix/store/q915dgvww7zqkdj1wxz8q1385m5a23x6-libheif-1.15.2-bin","/nix/store/q8555sypkmrk5l71xbmiir6gvjc4gplf-libheif-1.15.2-dev","/nix/store/rvy1q4zb2g6d6ymhxj30rsx4dyrszqqr-imagemagick-7.1.1-11-doc","/nix/store/s101zwm88qj5ysh8zp6dqhw2s9dq63k9-openexr-2.5.8-dev","/nix/store/vx6bkbbh03d0v2akn11ab5hh350pk16c-pkg-config-0.29.2","/nix/store/xpzbv9igr5ddsbzbp5fz11kzypz6ymaz-pkg-config-wrapper-0.29.2","/nix/store/ghhkvkmwxfd29vgkzlja4zayvcjlwn7m-djvulibre-3.5.28-bin","/nix/store/yvyj1j0b0sp2cisvvrqks7lvh0w62df5-djvulibre-3.5.28-dev","/nix/store/z016jbpxx28bm4c4a6di01ywpqv4nwzr-libXt-1.2.1-dev","/nix/store/z9df2y4l5n63wi7ywgq72d8spikrw1bh-librsvg-2.55.1-dev","/nix/store/gj072bx3188bf5337wz77zppw8svm4g0-imagemagick-7.1.1-11-dev","/nix/store/6zq680vkwy8mm821np9j0vqm0aszrqvk-nix-shell"],"channel":"stable-23_05","channel_nix_path":"/nix/store/qv8ilmw19rf0vng64qp86mb18kkr6h3z-nixpkgs-stable-23_05-23.05.tar.gz/nixpkgs-stable-23_05","production":null}}}
+\ No newline at end of file
+diff --git a/.upm/store.json b/.upm/store.json
+new file mode 100644
+index 0000000..ede7937
+--- /dev/null
++++ b/.upm/store.json
+@@ -0,0 +1 @@
++{"version":2,"languages":{"python-python3-poetry":{"specfileHash":"cc28a7c13e60b444c18beb4f99da72b9","lockfileHash":"5a3a380b65c25534b5a97dbcaeed9da6","guessedImportsHash":"9dfe0b027c44a483c36016061df2be43"}}}
+diff --git a/.upm/store.json404527372 b/.upm/store.json404527372
+new file mode 100644
+index 0000000..e69de29
+diff --git a/.upm/store.json499698290 b/.upm/store.json499698290
+new file mode 100644
+index 0000000..ede7937
+--- /dev/null
++++ b/.upm/store.json499698290
+@@ -0,0 +1 @@
++{"version":2,"languages":{"python-python3-poetry":{"specfileHash":"cc28a7c13e60b444c18beb4f99da72b9","lockfileHash":"5a3a380b65c25534b5a97dbcaeed9da6","guessedImportsHash":"9dfe0b027c44a483c36016061df2be43"}}}
+diff --git a/.upm/store.json643261371 b/.upm/store.json643261371
+new file mode 100644
+index 0000000..ede7937
+--- /dev/null
++++ b/.upm/store.json643261371
+@@ -0,0 +1 @@
++{"version":2,"languages":{"python-python3-poetry":{"specfileHash":"cc28a7c13e60b444c18beb4f99da72b9","lockfileHash":"5a3a380b65c25534b5a97dbcaeed9da6","guessedImportsHash":"9dfe0b027c44a483c36016061df2be43"}}}
+diff --git a/.upm/store.json685385725 b/.upm/store.json685385725
+new file mode 100644
+index 0000000..ede7937
+--- /dev/null
++++ b/.upm/store.json685385725
+@@ -0,0 +1 @@
++{"version":2,"languages":{"python-python3-poetry":{"specfileHash":"cc28a7c13e60b444c18beb4f99da72b9","lockfileHash":"5a3a380b65c25534b5a97dbcaeed9da6","guessedImportsHash":"9dfe0b027c44a483c36016061df2be43"}}}
+diff --git a/.upm/store.json841865031 b/.upm/store.json841865031
+new file mode 100644
+index 0000000..e69de29
+diff --git a/jpm_module_1/client3.py b/jpm_module_1/client3_ch.py
+similarity index 100%
+rename from jpm_module_1/client3.py
+rename to jpm_module_1/client3_ch.py
+diff --git a/jpm_module_1/client_test.py b/jpm_module_1/client_test_ch.py
+similarity index 100%
+rename from jpm_module_1/client_test.py
+rename to jpm_module_1/client_test_ch.py
+diff --git a/os b/os
+new file mode 100644
+index 0000000..f5a7a6b
+--- /dev/null
++++ b/os
+@@ -0,0 +1,1293 @@
++%!PS-Adobe-3.0
++%%Creator: (ImageMagick)
++%%Title: (os)
++%%CreationDate: (1980-01-01T00:00:00+00:00)
++%%BoundingBox: -0 -0 562 556
++%%HiResBoundingBox: 0 0 562 556
++%%DocumentData: Clean7Bit
++%%LanguageLevel: 1
++%%Orientation: Portrait
++%%PageOrder: Ascend
++%%Pages: 1
++%%EndComments
++
++%%BeginDefaults
++%%EndDefaults
++
++%%BeginProlog
++%
++% Display a color image.  The image is displayed in color on
++% Postscript viewers or printers that support color, otherwise
++% it is displayed as grayscale.
++%
++/DirectClassPacket
++{
++  %
++  % Get a DirectClass packet.
++  %
++  % Parameters:
++  %   red.
++  %   green.
++  %   blue.
++  %   length: number of pixels minus one of this color (optional).
++  %
++  currentfile color_packet readhexstring pop pop
++  compression 0 eq
++  {
++    /number_pixels 3 def
++  }
++  {
++    currentfile byte readhexstring pop 0 get
++    /number_pixels exch 1 add 3 mul def
++  } ifelse
++  0 3 number_pixels 1 sub
++  {
++    pixels exch color_packet putinterval
++  } for
++  pixels 0 number_pixels getinterval
++} bind def
++
++/DirectClassImage
++{
++  %
++  % Display a DirectClass image.
++  %
++  systemdict /colorimage known
++  {
++    columns rows 8
++    [
++      columns 0 0
++      rows neg 0 rows
++    ]
++    { DirectClassPacket } false 3 colorimage
++  }
++  {
++    %
++    % No colorimage operator;  convert to grayscale.
++    %
++    columns rows 8
++    [
++      columns 0 0
++      rows neg 0 rows
++    ]
++    { GrayDirectClassPacket } image
++  } ifelse
++} bind def
++
++/GrayDirectClassPacket
++{
++  %
++  % Get a DirectClass packet;  convert to grayscale.
++  %
++  % Parameters:
++  %   red
++  %   green
++  %   blue
++  %   length: number of pixels minus one of this color (optional).
++  %
++  currentfile color_packet readhexstring pop pop
++  color_packet 0 get 0.299 mul
++  color_packet 1 get 0.587 mul add
++  color_packet 2 get 0.114 mul add
++  cvi
++  /gray_packet exch def
++  compression 0 eq
++  {
++    /number_pixels 1 def
++  }
++  {
++    currentfile byte readhexstring pop 0 get
++    /number_pixels exch 1 add def
++  } ifelse
++  0 1 number_pixels 1 sub
++  {
++    pixels exch gray_packet put
++  } for
++  pixels 0 number_pixels getinterval
++} bind def
++
++/GrayPseudoClassPacket
++{
++  %
++  % Get a PseudoClass packet;  convert to grayscale.
++  %
++  % Parameters:
++  %   index: index into the colormap.
++  %   length: number of pixels minus one of this color (optional).
++  %
++  currentfile byte readhexstring pop 0 get
++  /offset exch 3 mul def
++  /color_packet colormap offset 3 getinterval def
++  color_packet 0 get 0.299 mul
++  color_packet 1 get 0.587 mul add
++  color_packet 2 get 0.114 mul add
++  cvi
++  /gray_packet exch def
++  compression 0 eq
++  {
++    /number_pixels 1 def
++  }
++  {
++    currentfile byte readhexstring pop 0 get
++    /number_pixels exch 1 add def
++  } ifelse
++  0 1 number_pixels 1 sub
++  {
++    pixels exch gray_packet put
++  } for
++  pixels 0 number_pixels getinterval
++} bind def
++
++/PseudoClassPacket
++{
++  %
++  % Get a PseudoClass packet.
++  %
++  % Parameters:
++  %   index: index into the colormap.
++  %   length: number of pixels minus one of this color (optional).
++  %
++  currentfile byte readhexstring pop 0 get
++  /offset exch 3 mul def
++  /color_packet colormap offset 3 getinterval def
++  compression 0 eq
++  {
++    /number_pixels 3 def
++  }
++  {
++    currentfile byte readhexstring pop 0 get
++    /number_pixels exch 1 add 3 mul def
++  } ifelse
++  0 3 number_pixels 1 sub
++  {
++    pixels exch color_packet putinterval
++  } for
++  pixels 0 number_pixels getinterval
++} bind def
++
++/PseudoClassImage
++{
++  %
++  % Display a PseudoClass image.
++  %
++  % Parameters:
++  %   class: 0-PseudoClass or 1-Grayscale.
++  %
++  currentfile buffer readline pop
++  token pop /class exch def pop
++  class 0 gt
++  {
++    currentfile buffer readline pop
++    token pop /depth exch def pop
++    /grays columns 8 add depth sub depth mul 8 idiv string def
++    columns rows depth
++    [
++      columns 0 0
++      rows neg 0 rows
++    ]
++    { currentfile grays readhexstring pop } image
++  }
++  {
++    %
++    % Parameters:
++    %   colors: number of colors in the colormap.
++    %   colormap: red, green, blue color packets.
++    %
++    currentfile buffer readline pop
++    token pop /colors exch def pop
++    /colors colors 3 mul def
++    /colormap colors string def
++    currentfile colormap readhexstring pop pop
++    systemdict /colorimage known
++    {
++      columns rows 8
++      [
++        columns 0 0
++        rows neg 0 rows
++      ]
++      { PseudoClassPacket } false 3 colorimage
++    }
++    {
++      %
++      % No colorimage operator;  convert to grayscale.
++      %
++      columns rows 8
++      [
++        columns 0 0
++        rows neg 0 rows
++      ]
++      { GrayPseudoClassPacket } image
++    } ifelse
++  } ifelse
++} bind def
++
++/DisplayImage
++{
++  %
++  % Display a DirectClass or PseudoClass image.
++  %
++  % Parameters:
++  %   x & y translation.
++  %   x & y scale.
++  %   label pointsize.
++  %   image label.
++  %   image columns & rows.
++  %   class: 0-DirectClass or 1-PseudoClass.
++  %   compression: 0-none or 1-RunlengthEncoded.
++  %   hex color packets.
++  %
++  gsave
++  /buffer 512 string def
++  /byte 1 string def
++  /color_packet 3 string def
++  /pixels 768 string def
++
++  currentfile buffer readline pop
++  token pop /x exch def
++  token pop /y exch def pop
++  x y translate
++  currentfile buffer readline pop
++  token pop /x exch def
++  token pop /y exch def pop
++  currentfile buffer readline pop
++  token pop /pointsize exch def pop
++  x y scale
++  currentfile buffer readline pop
++  token pop /columns exch def
++  token pop /rows exch def pop
++  currentfile buffer readline pop
++  token pop /class exch def pop
++  currentfile buffer readline pop
++  token pop /compression exch def pop
++  class 0 gt { PseudoClassImage } { DirectClassImage } ifelse
++  grestore
++  showpage
++} bind def
++%%EndProlog
++%%Page:  1 1
++%%PageBoundingBox: 0 0 562 556
++DisplayImage
++0 0
++562 556
++12
++562 556
++1
++1
++1
++1
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++000000000000000000000000000000000000000000000000000000000000000000000000000000
++0000000000000000
++%%PageTrailer
++%%Trailer
++%%EOF
+diff --git a/replit_zip_error_log.txt b/replit_zip_error_log.txt
+new file mode 100644
+index 0000000..7766268
+--- /dev/null
++++ b/replit_zip_error_log.txt
+@@ -0,0 +1 @@
++{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/python-3.8:v20-20240105-957ab14","time":"2024-01-08T13:08:37Z"}
+-- 
+2.43.0.windows.1
+
